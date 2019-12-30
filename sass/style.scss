@@ -70,6 +70,6 @@ $headerBlack: #000;
   .et_mobile_menu li a:hover, .nav ul li a:hover{
     background-color: $forestGreen;
     opacity: 1;
-    color: $headerWhite;
+    color: $headerWhite !important;
   }
 }

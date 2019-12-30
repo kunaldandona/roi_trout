@@ -45,7 +45,7 @@ Version:  1.0.2
 #main-header .et_mobile_menu li a:hover, #main-header .nav ul li a:hover {
   background-color: #142d06;
   opacity: 1;
-  color: #fff;
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=style.css.map */
