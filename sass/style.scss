@@ -7,12 +7,7 @@ Template: Divi
 Version:  1.0.2
 */
 
-$forestGreen: #142d06;
-$oliveGreen: #728b49;
-$cloudGrey: #e8f2f1;
-$stoneGrey: #9aa5a9;
-$headerWhite: #fff;
-$headerBlack: #000;
+@import "./app/variables.scss";
 
 #main-header {
   background-color: $forestGreen;
@@ -39,6 +34,14 @@ $headerBlack: #000;
 
         ul{
           border-top: 3px solid $oliveGreen;
+        }
+
+        .single-menu, .mega-menu {
+          .sub-menu{
+            .sub-menu{
+              border-top: 1px solid inherit;
+            }
+          }
         }
       }
 
@@ -77,3 +80,4 @@ $headerBlack: #000;
     color: $headerWhite !important;
   }
 }
+
