@@ -24,6 +24,9 @@ Version:  1.0.2
   width: 260px;
   color: #000;
 }
+#main-header #top-menu-nav #top-menu .mega-menu .sub-menu {
+  width: 100%;
+}
 #main-header .container {
   max-width: 1920px;
 }
