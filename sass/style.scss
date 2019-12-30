@@ -39,4 +39,12 @@ $headerBlack: #000;
       }
     }
   }
+
+  .container{
+    max-width: 1920px;
+  }
+
+  #et_search_icon:before {
+    top: -5px;
+  }
 }

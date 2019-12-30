@@ -24,5 +24,11 @@ Version:  1.0.2
   width: 260px;
   color: #000;
 }
+#main-header .container {
+  max-width: 1920px;
+}
+#main-header #et_search_icon:before {
+  top: -5px;
+}
 
 /*# sourceMappingURL=style.css.map */
