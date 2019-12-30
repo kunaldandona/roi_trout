@@ -17,9 +17,9 @@ $stoneGrey: #9aa5a9;
   color: #fff;
 
   #top-menu-nav{
-    #top-menu, .sub-menu{
+    #top-menu{
       li{
-        a{
+        .sub-menu li a, a {
           font-family: zeitung, sans-serif;
           font-weight: 600;
           font-style: normal;
