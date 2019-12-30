@@ -27,6 +27,9 @@ Version:  1.0.2
 #main-header #top-menu-nav #top-menu li ul {
   border-top: 3px solid #728b49;
 }
+#main-header #top-menu-nav #top-menu li.et-reverse-direction-nav li ul {
+  right: 300px;
+}
 #main-header #top-menu-nav #top-menu .mega-menu .sub-menu {
   width: 100%;
 }
