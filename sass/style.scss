@@ -37,10 +37,10 @@ Version:  1.0.2
         }
 
         .single-menu, .mega-menu {
-          .sub-menu{
-            .sub-menu{
-              border-top: 1px solid inherit;
-            }
+          .ul:first-of-type {
+              ul{
+                border-top: 1px solid inherit;
+              }
           }
         }
       }
