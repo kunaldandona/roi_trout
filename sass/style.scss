@@ -11,10 +11,12 @@ $forestGreen: #142d06;
 $oliveGreen: #728b49;
 $cloudGrey: #e8f2f1;
 $stoneGrey: #9aa5a9;
+$headerWhite: #fff;
+$headerBlack: #000;
 
 #main-header {
   background-color: $forestGreen;
-  color: #fff;
+  color: $headerWhite;
 
   #top-menu-nav{
     #top-menu{
@@ -23,6 +25,16 @@ $stoneGrey: #9aa5a9;
           font-family: zeitung, sans-serif;
           font-weight: 600;
           font-style: normal;
+          text-transform: uppercase;
+          color: $headerWhite;
+        }
+
+        .sub-menu{
+          width: 300px;
+          li a {
+            width: 260px;
+            color: $headerBlack;
+          }
         }
       }
     }

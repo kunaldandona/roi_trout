@@ -14,6 +14,15 @@ Version:  1.0.2
   font-family: zeitung, sans-serif;
   font-weight: 600;
   font-style: normal;
+  text-transform: uppercase;
+  color: #fff;
+}
+#main-header #top-menu-nav #top-menu li .sub-menu {
+  width: 300px;
+}
+#main-header #top-menu-nav #top-menu li .sub-menu li a {
+  width: 260px;
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
