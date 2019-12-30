@@ -16,8 +16,10 @@ function child_theme_enqueue_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'child_theme_enqueue_styles' );
 
+function typekit_script() {
+    wp_enqueue_script( 'typekit', '//use.typekit.net/ymf8kfv.css', array(), '1.0.0' );
+}
 
-
-
+add_action( 'wp_enqueue_scripts', 'typekit_script' );
 
 ?>
