@@ -36,6 +36,10 @@ $headerBlack: #000;
             color: $headerBlack;
           }
         }
+
+        ul{
+          border-top: 3px solid $oliveGreen;
+        }
       }
 
       .mega-menu{
@@ -50,7 +54,18 @@ $headerBlack: #000;
     max-width: 1920px;
   }
 
-  #et_search_icon:before {
-    top: -5px;
+  #et_search_icon {
+    &:before{
+      top: -5px;
+    }
+
+    &:hover{
+      color: $oliveGreen;
+    }
+  }
+  .et_mobile_menu li a:hover, .nav ul li a:hover{
+    background-color: $forestGreen;
+    opacity: 1;
+    color: $headerWhite;
   }
 }

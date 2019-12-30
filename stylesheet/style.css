@@ -24,6 +24,9 @@ Version:  1.0.2
   width: 260px;
   color: #000;
 }
+#main-header #top-menu-nav #top-menu li ul {
+  border-top: 3px solid #728b49;
+}
 #main-header #top-menu-nav #top-menu .mega-menu .sub-menu {
   width: 100%;
 }
@@ -32,6 +35,14 @@ Version:  1.0.2
 }
 #main-header #et_search_icon:before {
   top: -5px;
+}
+#main-header #et_search_icon:hover {
+  color: #728b49;
+}
+#main-header .et_mobile_menu li a:hover, #main-header .nav ul li a:hover {
+  background-color: #142d06;
+  opacity: 1;
+  color: #fff;
 }
 
 /*# sourceMappingURL=style.css.map */
