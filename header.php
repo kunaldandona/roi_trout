@@ -15,7 +15,7 @@
      */
     do_action( 'et_head_meta' );
 
-    $template_directory_uri = get_template_directory_uri();
+    $template_directory_uri = get_stylesheet_directory_uri();
     ?>
 
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
@@ -230,7 +230,7 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
             <?php
             $logo = ( $user_logo = et_get_option( 'divi_logo' ) ) && ! empty( $user_logo )
                 ? $user_logo
-                : $template_directory_uri . '/images/logo.png';
+                : $template_directory_uri . '/assets/trout-creek-logo.png';
 
             ob_start();
             ?>
