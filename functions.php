@@ -16,7 +16,7 @@ add_action( 'wp_enqueue_scripts', 'wpb_adding_scripts' );
 // IMPORT PARENT STYLE
 function child_theme_enqueue_styles() {
     $parent_style = 'divi-style'; // This is 'divi-style' for the Divi theme.
-    wp_enqueue_style( get_template_directory_uri() . '/stylesheet/override.css' );
+    wp_enqueue_style( 'divi-override', get_template_directory_uri() . '/stylesheet/override.css' );
     wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
     wp_enqueue_style( 'child-style',
         get_stylesheet_directory_uri() . '/stylesheet/style.css',
