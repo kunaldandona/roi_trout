@@ -59,9 +59,12 @@ $headerBlack: #000;
   }
 
   #et_search_icon {
-    &:before{
-      top: -5px;
+    @media screen and (min-width: 980px){
+      &:before{
+        top: -5px;
+      }
     }
+
 
     &:hover{
       color: $oliveGreen;

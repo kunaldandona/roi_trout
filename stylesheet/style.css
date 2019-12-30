@@ -36,8 +36,10 @@ Version:  1.0.2
 #main-header .container {
   max-width: 1920px;
 }
-#main-header #et_search_icon:before {
-  top: -5px;
+@media screen and (min-width: 980px) {
+  #main-header #et_search_icon:before {
+    top: -5px;
+  }
 }
 #main-header #et_search_icon:hover {
   color: #728b49;
