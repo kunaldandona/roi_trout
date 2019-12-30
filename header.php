@@ -19,7 +19,7 @@
     ?>
 
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
-
+    <link rel="stylesheet" href="https://use.typekit.net/ymf8kfv.css">
     <script type="text/javascript">
         document.documentElement.className = 'js';
     </script>
