@@ -44,7 +44,7 @@ Version:  1.0.2
 #main-header #et_search_icon:hover {
   color: #728b49;
 }
-#main-header .et_mobile_menu li a:hover, #main-header .nav ul li a:hover {
+#main-header .nav .sub-menu .sub-menu li a:hover, #main-header .et_mobile_menu li a:hover {
   background-color: #142d06;
   opacity: 1;
   color: #fff !important;

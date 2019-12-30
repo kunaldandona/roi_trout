@@ -70,7 +70,7 @@ $headerBlack: #000;
       color: $oliveGreen;
     }
   }
-  .et_mobile_menu li a:hover, .nav ul li a:hover{
+  .nav .sub-menu .sub-menu li a:hover, .et_mobile_menu li a:hover{
     background-color: $forestGreen;
     opacity: 1;
     color: $headerWhite !important;
