@@ -47,8 +47,9 @@ $headerBlack: #000;
       }
 
       .mega-menu{
-        .sub-menu{
-          width: 100%;
+        ul{
+          right: 0 !important;
+          width: 60%;
         }
       }
     }
