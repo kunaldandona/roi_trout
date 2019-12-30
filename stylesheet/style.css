@@ -27,7 +27,7 @@ Version:  1.0.2
 #main-header #top-menu-nav #top-menu li ul {
   border-top: 3px solid #728b49;
 }
-#main-header #top-menu-nav #top-menu li .single-menu .ul:first-of-type ul, #main-header #top-menu-nav #top-menu li .mega-menu .ul:first-of-type ul {
+#main-header #top-menu-nav #top-menu li .single-menu ul:first-of-type ul, #main-header #top-menu-nav #top-menu li .mega-menu ul:first-of-type ul {
   border-top: 1px solid inherit;
 }
 #main-header #top-menu-nav #top-menu li.et-reverse-direction-nav li ul {
