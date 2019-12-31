@@ -30,22 +30,22 @@ Version:  1.0.2
 #main-header #top-menu-nav #top-menu li.et-reverse-direction-nav li ul {
   right: 300px;
 }
-#main-header #top-menu-nav #top-menu .single-menu a:first-of-type, #main-header #top-menu-nav #top-menu .mega-menu a:first-of-type {
+#main-header #top-menu-nav #top-menu .single-menu a:first-child, #main-header #top-menu-nav #top-menu .mega-menu a:first-child {
   position: relative;
 }
-#main-header #top-menu-nav #top-menu .single-menu a:first-of-type:before, #main-header #top-menu-nav #top-menu .mega-menu a:first-of-type:before {
+#main-header #top-menu-nav #top-menu .single-menu a:first-child:before, #main-header #top-menu-nav #top-menu .mega-menu a:first-child:before {
   content: "";
   position: absolute;
   width: 100%;
-  height: 2px;
-  bottom: 0;
+  height: 4px;
+  bottom: 10px;
   left: 0;
-  background-color: #728b49;
+  background-color: #fff;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
 }
-#main-header #top-menu-nav #top-menu .single-menu a:first-of-type:hover:before, #main-header #top-menu-nav #top-menu .mega-menu a:first-of-type:hover:before {
+#main-header #top-menu-nav #top-menu .single-menu a:first-child:hover:before, #main-header #top-menu-nav #top-menu .mega-menu a:first-child:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
