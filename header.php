@@ -20,6 +20,8 @@
 
     <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>" />
     <link rel="stylesheet" href="https://use.typekit.net/ymf8kfv.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/brands.css">
+
     <script type="text/javascript">
         document.documentElement.className = 'js';
     </script>
@@ -242,9 +244,8 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
         </ul>
 
         <div class="right_side">
-            <a href='https://www.facebook.com/ArrowTransportationSystemsInc' id='network_facebook' target='_Blank' rel='nofollow'>Arrow on Facebook</a>
-            <a href='https://www.linkedin.com/company/arrow-transportation-system' id='network_linkedin' target='_Blank' rel='nofollow'>Arrow on Linkedin</a>
-            <a href='https://twitter.com/Arrow_Social' id='network_twitter' target='_Blank' rel='nofollow'>Arrow on Twitter @Arrow_Social</a>
+            <i class="fab fa-facebook-square"></i>
+
 
             <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
                 <input type="text" name="s" id="s" <?php if(is_search()) { ?>value="<?= get_search_query(); ?>" <?php } else { ?>value="Search&hellip;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"<?php } ?> />
