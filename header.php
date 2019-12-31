@@ -1,11 +1,4 @@
 <!DOCTYPE html>
-<?php
-global $troutnetwork, $current;
-
-if($troutnetwork[$current]){
-    echo $troutnetwork[$current]['title'];
-}
-?>
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
@@ -235,7 +228,14 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
     <header id="main-header" class="trout-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
         <div class="secondary-multi">
             <div class="container">
-                <h1>hey</h1>
+                <?php
+                global $troutnetwork, $current;
+                $current = get_current_blog_id();
+                echo $current;
+                if($troutnetwork[$current]){
+                    echo $troutnetwork[$current]['title'];
+                }
+                ?>
             </div>
         </div>
         <div class="container clearfix et_menu_container">

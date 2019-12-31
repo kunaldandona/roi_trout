@@ -5,7 +5,7 @@
  */
 global $troutnetwork, $current;
 
-$current = get_current_blog_id();
+
 
 $troutnetwork = array(
     201 => array(
