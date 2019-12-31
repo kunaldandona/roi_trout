@@ -107,6 +107,7 @@ Version:  1.0.2
   background-color: #728b49;
   display: flex;
   justify-content: space-between;
+  padding: 0 10%;
 }
 
 .left_side, .right_side {
@@ -114,7 +115,7 @@ Version:  1.0.2
 }
 
 .current_site {
-  background-color: #728b49;
+  background: #728b49;
 }
 
 .left_side a {

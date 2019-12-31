@@ -148,6 +148,7 @@ Version:  1.0.2
   background-color: $oliveGreen;
   display: flex;
   justify-content: space-between;
+  padding: 0 10%;
 }
 
 .left_side, .right_side{
@@ -155,7 +156,7 @@ Version:  1.0.2
 }
 
 .current_site{
-  background-color: $oliveGreen;
+  background: $oliveGreen;
 }
 
 .left_side {
