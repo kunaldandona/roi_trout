@@ -3,7 +3,30 @@
  * Custom Functions file for current theme.
  *
  */
+global $troutnetwork, $current;
 
+$current = get_current_blog_id();
+
+$troutnetwork = array(
+    201 => array(
+        'name' => 'builder',
+        'title' => 'Builders',
+        'url' => 'https://wordpress.roimediaworks.com/troutcreek/',
+        'networked' => true,
+    ),
+    202 => array(
+        'name' => 'architects',
+        'title' => 'Architects',
+        'url' => 'https://wordpress.roimediaworks.com/troutcreek/',
+        'networked' => true,
+    ),
+    203 => array(
+        'name' => 'homeowner',
+        'title' => 'Home Owner',
+        'url' => 'https://wordpress.roimediaworks.com/troutcreek/',
+        'networked' => true,
+    )
+);
 // IMPORT PARENT STYLE
 function child_theme_enqueue_styles() {
     $parent_style = 'divi-style'; // This is 'divi-style' for the Divi theme.

@@ -1,4 +1,11 @@
 <!DOCTYPE html>
+<?php
+global $troutnetwork, $current;
+
+if($troutnetwork[$current]){
+    echo $troutnetwork[$current]['title'];
+}
+?>
 <html <?php language_attributes(); ?>>
 <head>
     <meta charset="<?php bloginfo( 'charset' ); ?>" />
