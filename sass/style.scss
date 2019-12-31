@@ -138,6 +138,7 @@ Version:  1.0.2
 
 .et_fixed_nav #main-header, .et_fixed_nav #top-header{
   position: relative;
+  top: 30px!important;
 }
 
 #network_nav{
@@ -156,7 +157,7 @@ Version:  1.0.2
 }
 
 .current_site{
-  background: $oliveGreen;
+  background: $forestGreen;
 }
 
 .left_side {
@@ -174,6 +175,12 @@ Version:  1.0.2
   li{
     &:hover{
       background: rgba(20, 45, 6, 0.6);
+    }
+
+    .current_site{
+      &:hover{
+        background: $forestGreen;
+      }
     }
   }
 
