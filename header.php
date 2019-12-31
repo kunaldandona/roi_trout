@@ -244,13 +244,10 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
         </ul>
 
         <div class="right_side">
-            <i class="fab fa-facebook-square"></i>
-
-
-            <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-                <input type="text" name="s" id="s" <?php if(is_search()) { ?>value="<?= get_search_query(); ?>" <?php } else { ?>value="Search&hellip;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"<?php } ?> />
-                <input type="submit" id="searchsubmit" value="Search" class='notext' />
-            </form>
+            <a href='<?php echo esc_url( et_get_option( 'divi_facebook_url', '#' ) ); ?>'><i class="fa fa-facebook-square"></i></a>
+            <a href='<?php echo esc_url( et_get_option( 'divi_facebook_url', '#' ) ); ?>'><i class="fa fa-twitter-square"></i></a>
+            <a href='<?php echo esc_url( et_get_option( 'divi_facebook_url', '#' ) ); ?>'><i class="fa fa-instagram"></i></a>
+            <a href='<?php echo esc_url( et_get_option( 'divi_facebook_url', '#' ) ); ?>'><i class="fa fa-youtube-square"></i></a>
         </div>
     </div>
 
