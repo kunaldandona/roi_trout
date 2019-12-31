@@ -30,6 +30,22 @@ Version:  1.0.2
 #main-header #top-menu-nav #top-menu li.et-reverse-direction-nav li ul {
   right: 300px;
 }
+#main-header #top-menu-nav #top-menu .button-menu a:before {
+  content: "";
+  background: #728b49;
+  z-index: -10;
+  height: 15px;
+  border-radius: 4px;
+  width: 100%;
+  padding: 15px 10px;
+  position: absolute;
+  left: -10px;
+  bottom: -16px;
+}
+#main-header #top-menu-nav #top-menu .button-menu a:hover {
+  opacity: 1;
+  color: #142d06;
+}
 #main-header #top-menu-nav #top-menu .single-menu a, #main-header #top-menu-nav #top-menu .mega-menu a {
   position: relative;
 }

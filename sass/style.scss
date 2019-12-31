@@ -42,6 +42,27 @@ Version:  1.0.2
         right: 300px;
       }
 
+      .button-menu{
+        a{
+          &:before{
+            content: "";
+            background: $oliveGreen;
+            z-index: -10;
+            height: 15px;
+            border-radius: 4px;
+            width: 100%;
+            padding: 15px 10px;
+            position: absolute;
+            left: -10px;
+            bottom: -16px;
+          }
+          &:hover{
+            opacity: 1;
+            color: $forestGreen;
+          }
+        }
+      }
+
       .single-menu, .mega-menu {
         a {
           position: relative;
