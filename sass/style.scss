@@ -143,7 +143,37 @@ Version:  1.0.2
 #network_nav{
   position: absolute;
   top: 0;
-  height: 30px;
+  height: 35px;
   width: 100%;
   background-color: $oliveGreen;
+  display: flex;
+  justify-content: space-between;
+}
+
+.left_side, .right_side{
+  display: flex;
+}
+
+.current_site{
+  background-color: $oliveGreen;
+}
+
+.left_side {
+  a{
+    color: $headerWhite;
+    padding: 2px 20px;
+    min-width: 100px;
+    text-transform: uppercase;
+    font-family: mr-eaves-xl-sans, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-style: normal;
+  }
+  li{
+    &:hover{
+      background: rgba(20, 45, 6, 0.6);
+    }
+  }
+
 }
