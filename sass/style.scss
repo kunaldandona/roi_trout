@@ -15,6 +15,7 @@ Version:  1.0.2
 
   #top-menu-nav{
     #top-menu{
+
       li{
         .sub-menu li a, a {
           font-family: zeitung, sans-serif;
@@ -42,7 +43,7 @@ Version:  1.0.2
       }
 
       .single-menu, .mega-menu {
-        a:first-child {
+        a {
           position: relative;
 
           &:before{
@@ -62,6 +63,12 @@ Version:  1.0.2
             visibility: visible;
             -webkit-transform: scaleX(1);
             transform: scaleX(1);
+          }
+        }
+
+        .sub-menu a {
+          &:hover:before{
+            visibility: hidden;
           }
         }
 

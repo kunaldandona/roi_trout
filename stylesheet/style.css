@@ -30,10 +30,10 @@ Version:  1.0.2
 #main-header #top-menu-nav #top-menu li.et-reverse-direction-nav li ul {
   right: 300px;
 }
-#main-header #top-menu-nav #top-menu .single-menu a:first-child, #main-header #top-menu-nav #top-menu .mega-menu a:first-child {
+#main-header #top-menu-nav #top-menu .single-menu a, #main-header #top-menu-nav #top-menu .mega-menu a {
   position: relative;
 }
-#main-header #top-menu-nav #top-menu .single-menu a:first-child:before, #main-header #top-menu-nav #top-menu .mega-menu a:first-child:before {
+#main-header #top-menu-nav #top-menu .single-menu a:before, #main-header #top-menu-nav #top-menu .mega-menu a:before {
   content: "";
   position: absolute;
   width: 100%;
@@ -45,10 +45,13 @@ Version:  1.0.2
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
 }
-#main-header #top-menu-nav #top-menu .single-menu a:first-child:hover:before, #main-header #top-menu-nav #top-menu .mega-menu a:first-child:hover:before {
+#main-header #top-menu-nav #top-menu .single-menu a:hover:before, #main-header #top-menu-nav #top-menu .mega-menu a:hover:before {
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
+}
+#main-header #top-menu-nav #top-menu .single-menu .sub-menu a:hover:before, #main-header #top-menu-nav #top-menu .mega-menu .sub-menu a:hover:before {
+  visibility: hidden;
 }
 #main-header #top-menu-nav #top-menu .single-menu ul:first-of-type ul, #main-header #top-menu-nav #top-menu .mega-menu ul:first-of-type ul {
   border-top: 1px solid inherit;
