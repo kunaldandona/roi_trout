@@ -226,6 +226,11 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
 
     <?php ob_start(); ?>
     <header id="main-header" class="trout-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
+        <div class="secondary-multi">
+            <div class="container">
+                <h1>hey</h1>
+            </div>
+        </div>
         <div class="container clearfix et_menu_container">
             <?php
             $logo = ( $user_logo = et_get_option( 'divi_logo' ) ) && ! empty( $user_logo )
