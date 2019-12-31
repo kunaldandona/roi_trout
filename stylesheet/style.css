@@ -44,7 +44,7 @@ Version:  1.0.2
 }
 #main-header #top-menu-nav #top-menu .button-menu a:hover {
   opacity: 1;
-  background: #9aa5a9;
+  color: #9aa5a9;
 }
 #main-header #top-menu-nav #top-menu .single-menu a, #main-header #top-menu-nav #top-menu .mega-menu a {
   position: relative;
