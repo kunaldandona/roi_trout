@@ -225,19 +225,41 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
     <?php endif; // true ==== $et_slide_header ?>
 
     <?php ob_start(); ?>
-    <header id="main-header" class="trout-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
-        <div class="secondary-multi">
-            <div class="container">
-                <?php
-                global $troutnetwork, $current;
-                $current = get_current_blog_id();
-                echo $current;
-                if($troutnetwork[$current]){
-                    echo $troutnetwork[$current]['title'];
-                }
-                ?>
-            </div>
+    <?php global $troutnetwork, $current;
+        $current = get_current_blog_id();
+    ?>
+    <div id='network_nav'>
+        <ul id='sites'>
+            <?
+            foreach ($troutnetwork as $site_id => $site_info) {
+                $active = ($current == $site_id) ? " class='current_site'" : '';
+                echo "
+				<li{$active}>
+					<a href='{$site_info['url']}' target='_Blank' id='site-btn-{$site_id}'>{$site_info['title']}</a>
+				</li>";
+            }
+            ?>
+        </ul>
+
+        <a href='https://www.facebook.com/ArrowTransportationSystemsInc' id='network_facebook' target='_Blank' rel='nofollow'>Arrow on Facebook</a>
+        <a href='https://www.linkedin.com/company/arrow-transportation-system' id='network_linkedin' target='_Blank' rel='nofollow'>Arrow on Linkedin</a>
+        <a href='https://twitter.com/Arrow_Social' id='network_twitter' target='_Blank' rel='nofollow'>Arrow on Twitter @Arrow_Social</a>
+
+        <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+            <input type="text" name="s" id="s" <?php if(is_search()) { ?>value="<?= get_search_query(); ?>" <?php } else { ?>value="Search&hellip;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"<?php } ?> />
+            <input type="submit" id="searchsubmit" value="Search" class='notext' />
+        </form>
+
+    </div>
+
+    <div class="secondary-multi">
+        <div class="container">
+            <?php
+
+            ?>
         </div>
+    </div>
+    <header id="main-header" class="trout-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
         <div class="container clearfix et_menu_container">
             <?php
             $logo = ( $user_logo = et_get_option( 'divi_logo' ) ) && ! empty( $user_logo )
