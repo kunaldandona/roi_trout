@@ -128,10 +128,15 @@ Version:  1.0.2
       color: $oliveGreen;
     }
   }
+
   .nav .mega-menu .sub-menu .sub-menu li a:hover, .et_mobile_menu li a:hover, .nav .single-menu .sub-menu li a:hover {
     background-color: $forestGreen;
     opacity: 1;
     color: $headerWhite !important;
+  }
+
+  .et_fixed_nav #main-header, .et_fixed_nav #top-header{
+    position: relative;
   }
 }
 

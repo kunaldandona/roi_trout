@@ -252,13 +252,6 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
 
     </div>
 
-    <div class="secondary-multi">
-        <div class="container">
-            <?php
-
-            ?>
-        </div>
-    </div>
     <header id="main-header" class="trout-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
         <div class="container clearfix et_menu_container">
             <?php

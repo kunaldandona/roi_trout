@@ -94,5 +94,8 @@ Version:  1.0.2
   opacity: 1;
   color: #fff !important;
 }
+#main-header .et_fixed_nav #main-header, #main-header .et_fixed_nav #top-header {
+  position: relative;
+}
 
 /*# sourceMappingURL=style.css.map */
