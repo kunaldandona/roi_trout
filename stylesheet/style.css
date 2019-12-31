@@ -34,13 +34,13 @@ Version:  1.0.2
   content: "";
   background: #728b49;
   z-index: -10;
-  height: 15px;
+  height: 12px;
   border-radius: 4px;
   width: 100%;
   padding: 15px 10px;
   position: absolute;
   left: -10px;
-  bottom: -16px;
+  bottom: 18px;
 }
 #main-header #top-menu-nav #top-menu .button-menu a:hover {
   opacity: 1;
