@@ -229,7 +229,7 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
         $current = get_current_blog_id();
     ?>
     <div id='network_nav'>
-        <ul id='sites'>
+        <ul class='left_side'>
             <?
             foreach ($troutnetwork as $site_id => $site_info) {
                 $active = ($current == $site_id) ? " class='current_site'" : '';
@@ -241,15 +241,16 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
             ?>
         </ul>
 
-        <a href='https://www.facebook.com/ArrowTransportationSystemsInc' id='network_facebook' target='_Blank' rel='nofollow'>Arrow on Facebook</a>
-        <a href='https://www.linkedin.com/company/arrow-transportation-system' id='network_linkedin' target='_Blank' rel='nofollow'>Arrow on Linkedin</a>
-        <a href='https://twitter.com/Arrow_Social' id='network_twitter' target='_Blank' rel='nofollow'>Arrow on Twitter @Arrow_Social</a>
+        <div class="right_side">
+            <a href='https://www.facebook.com/ArrowTransportationSystemsInc' id='network_facebook' target='_Blank' rel='nofollow'>Arrow on Facebook</a>
+            <a href='https://www.linkedin.com/company/arrow-transportation-system' id='network_linkedin' target='_Blank' rel='nofollow'>Arrow on Linkedin</a>
+            <a href='https://twitter.com/Arrow_Social' id='network_twitter' target='_Blank' rel='nofollow'>Arrow on Twitter @Arrow_Social</a>
 
-        <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
-            <input type="text" name="s" id="s" <?php if(is_search()) { ?>value="<?= get_search_query(); ?>" <?php } else { ?>value="Search&hellip;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"<?php } ?> />
-            <input type="submit" id="searchsubmit" value="Search" class='notext' />
-        </form>
-
+            <form role="search" method="get" id="searchform" action="<?php echo home_url( '/' ); ?>">
+                <input type="text" name="s" id="s" <?php if(is_search()) { ?>value="<?= get_search_query(); ?>" <?php } else { ?>value="Search&hellip;" onfocus="if(this.value==this.defaultValue)this.value='';" onblur="if(this.value=='')this.value=this.defaultValue;"<?php } ?> />
+                <input type="submit" id="searchsubmit" value="Search" class='notext' />
+            </form>
+        </div>
     </div>
 
     <header id="main-header" class="trout-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">

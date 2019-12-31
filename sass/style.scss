@@ -139,3 +139,11 @@ Version:  1.0.2
 .et_fixed_nav #main-header, .et_fixed_nav #top-header{
   position: relative;
 }
+
+#network_nav{
+  position: absolute;
+  top: 0;
+  height: 30px;
+  width: 100%;
+  background-color: $oliveGreen;
+}

@@ -99,4 +99,12 @@ Version:  1.0.2
   position: relative;
 }
 
+#network_nav {
+  position: absolute;
+  top: 0;
+  height: 30px;
+  width: 100%;
+  background-color: #728b49;
+}
+
 /*# sourceMappingURL=style.css.map */
