@@ -99,6 +99,38 @@ Version:  1.0.2
   position: fixed;
 }
 
+#network_nav {
+  position: absolute;
+  top: 124px;
+  width: 100%;
+  height: 80px;
+  z-index: 30;
+  background: #728b49;
+}
+#network_nav .trout_container {
+  max-width: 1920px;
+  margin: 0 auto;
+}
+#network_nav .trout_container .trout-links {
+  display: flex;
+  justify-content: space-between;
+}
+#network_nav .trout_container .trout-links a {
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+#network_nav .trout_container .trout-links a img {
+  max-height: 50px;
+}
+#network_nav .trout_container .trout-links a .trout-site {
+  height: 80px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
+
 .left_side, .right_side {
   display: flex;
 }
