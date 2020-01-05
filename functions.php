@@ -46,4 +46,11 @@ function child_theme_enqueue_styles() {
     );
 }
 add_action( 'wp_enqueue_scripts', 'child_theme_enqueue_styles' );
+
+function my_theme_scripts() {
+    wp_enqueue_script( 'mainJS', get_stylesheet_directory_uri() . '/js/main.js', array( 'jquery' ), '1.0.0', true );
+}
+add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
+
+
 ?>
