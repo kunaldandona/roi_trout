@@ -122,6 +122,15 @@ Version:  1.0.2
   justify-content: center;
   transition: all 0.4s ease-in-out;
 }
+#network_nav .trout_container .trout-links a:nth-child(1) {
+  background-color: #71B340;
+}
+#network_nav .trout_container .trout-links a:nth-child(2) {
+  background-color: #669D31;
+}
+#network_nav .trout_container .trout-links a:nth-child(3) {
+  background-color: #598B2C;
+}
 #network_nav .trout_container .trout-links a:hover {
   background-color: #262626;
 }
@@ -147,15 +156,6 @@ Version:  1.0.2
 }
 #network_nav .trout_container .trout-links a .current_site span {
   border-bottom: 5px solid #fff;
-}
-#network_nav .trout_container .trout-links a:nth-child(1) {
-  background-color: #71B340;
-}
-#network_nav .trout_container .trout-links a:nth-child(2) {
-  background-color: #669D31;
-}
-#network_nav .trout_container .trout-links a:nth-child(3) {
-  background-color: #598B2C;
 }
 
 /*# sourceMappingURL=style.css.map */
