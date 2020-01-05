@@ -231,7 +231,7 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
         $current = get_current_blog_id();
     ?>
     <div id='network_nav'>
-        <div class="container">
+        <div class="trout_container">
             <div class="trout-links">
                 <?
                 foreach ($troutnetwork as $site_id => $site_info) {

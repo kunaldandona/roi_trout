@@ -169,13 +169,22 @@ Version:  1.0.2
           align-items: center;
         }
       }
+
+      a:nth-child(1){
+        background-color: $palmLeaf;
+      }
+
+      a:nth-child(2){
+        background-color: $newGreen;
+      }
+
+      a:nth-child(3){
+        background-color: $maxGreen;
+      }
     }
   }
 }
 
-.left_side, .right_side{
-  display: flex;
-}
 
 .current_site{
   background: $forestGreen;

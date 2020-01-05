@@ -130,9 +130,14 @@ Version:  1.0.2
   justify-items: center;
   align-items: center;
 }
-
-.left_side, .right_side {
-  display: flex;
+#network_nav .trout_container .trout-links a:nth-child(1) {
+  background-color: #71B340;
+}
+#network_nav .trout_container .trout-links a:nth-child(2) {
+  background-color: #669D31;
+}
+#network_nav .trout_container .trout-links a:nth-child(3) {
+  background-color: #598B2C;
 }
 
 .current_site {
