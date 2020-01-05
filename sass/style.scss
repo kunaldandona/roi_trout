@@ -159,14 +159,34 @@ Version:  1.0.2
         width: 100%;
         display: flex;
         justify-content: center;
+        transition: all 0.4s ease-in-out;
+        &:hover{
+          background-color: #262626;
+        }
         img{
-          max-height: 50px;
+          max-height: 40px;
+          margin-right: 20px;
         }
         .trout-site{
           height:$networkHeaderHeight;
           display: flex;
           justify-items: center;
           align-items: center;
+          span{
+            font-family: "mr-eaves-xl-modern",sans-serif;
+            letter-spacing: 1px;
+            font-weight: 100;
+            font-style: oblique;
+            text-transform: uppercase;
+            font-size: 20px;
+            color: #fff;
+            transition: all 0.4s ease-in-out;
+          }
+        }
+        .current_site{
+          span{
+            border-bottom: 5px solid #fff;
+          }
         }
       }
 
@@ -185,41 +205,3 @@ Version:  1.0.2
   }
 }
 
-
-.current_site{
-  background: $forestGreen;
-}
-
-.left_side {
-  a{
-    color: $headerWhite;
-    padding: 2px 20px;
-    min-width: 100px;
-    text-transform: uppercase;
-    font-family: mr-eaves-xl-sans, sans-serif;
-    font-weight: 500;
-    font-size: 14px;
-    letter-spacing: 1px;
-    font-style: normal;
-  }
-  li{
-    &:hover{
-      background: rgba(20, 45, 6, 0.6);
-    }
-
-    .current_site{
-      &:hover{
-        background: $forestGreen;
-      }
-    }
-  }
-}
-
-.right_side{
-  a {
-    font-size: 25px;
-    color: #f7f8f6;
-    line-height: 1.1;
-    padding: 0 5px;
-  }
-}
