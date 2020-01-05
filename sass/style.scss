@@ -26,7 +26,7 @@ Version:  1.0.2
         }
 
         .sub-menu{
-          width: 300px;
+          width: 320px;
           li a {
             width: 260px;
             color: $headerBlack;
@@ -138,18 +138,11 @@ Version:  1.0.2
 
 .et_fixed_nav #main-header, .et_fixed_nav #top-header{
   position: fixed;
-  top: 30px!important;
+  //top: 30px!important;
 }
 
 #network_nav{
-  position: absolute;
-  top: 0;
-  height: 35px;
-  width: 100%;
-  background-color: $oliveGreen;
-  display: flex;
-  justify-content: space-between;
-  padding: 0 10%;
+
 }
 
 .left_side, .right_side{

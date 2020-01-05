@@ -231,23 +231,27 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
         $current = get_current_blog_id();
     ?>
     <div id='network_nav'>
-        <ul class='left_side'>
-            <?
-            foreach ($troutnetwork as $site_id => $site_info) {
-                $active = ($current == $site_id) ? " class='current_site'" : '';
-                echo "
-				<li{$active}>
-					<a href='{$site_info['url']}' target='_Blank' id='site-btn-{$site_id}'>{$site_info['title']}</a>
-				</li>";
-            }
-            ?>
-        </ul>
-
-        <div class="right_side">
-            <a href='<?php echo esc_url( et_get_option( 'divi_facebook_url', '#' ) ); ?>'><i class="fa fa-facebook-square"></i></a>
-            <a href='<?php echo esc_url( et_get_option( 'divi_facebook_url', '#' ) ); ?>'><i class="fa fa-twitter-square"></i></a>
-            <a href='<?php echo esc_url( et_get_option( 'divi_facebook_url', '#' ) ); ?>'><i class="fa fa-instagram"></i></a>
-            <a href='<?php echo esc_url( et_get_option( 'divi_facebook_url', '#' ) ); ?>'><i class="fa fa-youtube-square"></i></a>
+        <div class="container">
+            <div class="trout-links">
+                <?
+                foreach ($troutnetwork as $site_id => $site_info) {
+                    $active = ($current == $site_id) ? " current_site" : '';
+                    $logoImg = $template_directory_uri . '/assets/trout-creek-logo.png';
+                    echo "
+                    <a href='{$site_info['url']}' target='_Blank' id='site-btn-{$site_id}'>
+                        <div class='trout-site{$active}'>
+                            <img src='{$logoImg}' alt='{$site_info['title']}'>
+                            <span id='heading-{$site_id}'>{$site_info['title']}</span>
+                        </div>
+                    </a>
+                    ";
+                }
+                ?>
+                <div class="trout-site">
+                    <img src="" alt="">
+                    <span></span>
+                </div>
+            </div>
         </div>
     </div>
 
