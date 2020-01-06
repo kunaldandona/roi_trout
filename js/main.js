@@ -3,7 +3,14 @@ jQuery(document).ready(function ($) {
 
     $.adjustHeader = function () {
         let headerHeight = $('header').height();
-        $('#network_nav').css({ top: headerHeight });
+        if ($('.arrow').hasClass('downArrow')){
+            $('#network_nav').css({ top: headerHeight });
+        } else {
+            $('#network_nav').css({ top: -headerHeight });
+        }
+
+
+
     };
 
     $.toggleArrow = function () {
@@ -18,8 +25,9 @@ jQuery(document).ready(function ($) {
 
     $('.logo_container').click(function(e){
         e.preventDefault();
-        $.adjustHeader();
-        $.toggleArrow();
+        $.toggleArrow(function () {
+            $.adjustHeader();
+        });
     });
 
 
