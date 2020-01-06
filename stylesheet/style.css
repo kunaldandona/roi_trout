@@ -220,7 +220,8 @@ Version:  1.0.2
 }
 
 body {
-  font-family: "mr-eaves-xl-modern", sans-serif;
+  font-family: zeitung, sans-serif;
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=style.css.map */
