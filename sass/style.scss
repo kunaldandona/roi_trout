@@ -270,6 +270,19 @@ Version:  1.0.2
     max-width: 1920px;
   }
 
+  #et-info{
+    padding-top: .75em;
+  }
+
+  #et-secondary-nav{
+    li{
+      min-height: 30px;
+      a{
+        text-transform: uppercase;
+      }
+    }
+  }
+
 }
 
 body {

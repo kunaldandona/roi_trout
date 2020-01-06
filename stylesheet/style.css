@@ -218,6 +218,15 @@ Version:  1.0.2
 #top-header .container {
   max-width: 1920px;
 }
+#top-header #et-info {
+  padding-top: 0.75em;
+}
+#top-header #et-secondary-nav li {
+  min-height: 30px;
+}
+#top-header #et-secondary-nav li a {
+  text-transform: uppercase;
+}
 
 body {
   font-family: zeitung, sans-serif;
