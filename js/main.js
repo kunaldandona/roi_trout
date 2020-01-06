@@ -1,5 +1,6 @@
 jQuery(document).ready(function ($) {
-    console.log('working', $('header').outerHeight());
+
+    var headTop = $('header').height();
 
     $.adjustHeader = function () {
         let headerHeight = $('header').height();
@@ -9,6 +10,10 @@ jQuery(document).ready(function ($) {
             $('#network_nav').css({ top: headerHeight });
         } else {
             $('#network_nav').css({ top: '-60px' });
+        }
+
+        if(headerPos <= 60) {
+            $('#network_nav').css({ top: headTop });
         }
     };
 
