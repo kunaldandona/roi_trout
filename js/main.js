@@ -8,23 +8,14 @@ jQuery(document).ready(function ($) {
         if ($('.arrow').hasClass('downArrow')) {
             $('#network_nav').css({ top: -headerHeight });
         } else {
+            if(headerPos >)
             $('#network_nav').css({ top: headerHeight });
-        }
-    };
-
-    $.toggleArrow = function () {
-        if ($('.arrow').hasClass('downArrow')) {
-            $('.arrow').removeClass('downArrow');
-            $('.arrow').addClass('upArrow');
-        } else {
-            $('.arrow').removeClass('upArrow');
-            $('.arrow').addClass('downArrow');
         }
     };
 
     $('.logo_container').click(function(e){
         e.preventDefault();
-        $.toggleArrow($.adjustHeader());
+        $('.arrow').toggleClass("upArrow");
     });
 
     var didScroll;
@@ -46,12 +37,13 @@ jQuery(document).ready(function ($) {
     function hasScrolled() {
         let st = $(this).scrollTop();
         let headerHeight = $('header').outerHeight();
+        let
 
         // Make sure they scroll more than delta
         if (Math.abs(lastScrollTop - st) <= delta)
             return;
 
-        if ($('.arrow').hasClass('downArrow')) {
+        if ($('.arrow').hasClass('downArrow') && $) {
             $('#network_nav').css({top: -headerHeight});
         } else {
             $('#network_nav').css({top: headerHeight});
