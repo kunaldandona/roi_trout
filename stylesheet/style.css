@@ -141,7 +141,10 @@ Version:  1.0.2
 }
 
 .et-fixed-header #top-menu-nav .single-menu a:before, .et-fixed-header #top-menu-nav .mega-menu a:before {
-  bottom: 20px;
+  bottom: 20px !important;
+}
+.et-fixed-header #top-menu-nav .single-menu .sub-menu li a, .et-fixed-header #top-menu-nav .mega-menu .sub-menu li a {
+  color: #000;
 }
 
 .et_header_style_left .logo_container {
