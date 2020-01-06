@@ -197,7 +197,7 @@ Version:  1.0.2
       }
       .sub-menu{
         li a {
-          color: $headerBlack;
+          color: $headerBlack !important;
         }
       }
     }

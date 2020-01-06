@@ -144,7 +144,7 @@ Version:  1.0.2
   bottom: 20px !important;
 }
 .et-fixed-header #top-menu-nav .single-menu .sub-menu li a, .et-fixed-header #top-menu-nav .mega-menu .sub-menu li a {
-  color: #000;
+  color: #000 !important;
 }
 
 .et_header_style_left .logo_container {
