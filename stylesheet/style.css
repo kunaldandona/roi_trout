@@ -151,6 +151,7 @@ Version:  1.0.2
   z-index: 30;
   border-top: 3px solid #f5f5f5;
   box-sizing: border-box;
+  transition: top 0.5s ease-out;
 }
 #network_nav .trout_container {
   max-width: 1920px;
