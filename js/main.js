@@ -32,7 +32,6 @@ jQuery(document).ready(function ($) {
 
     $(window).scroll(function (event) {
         didScroll = true;
-        console.log($('header').offset().top);
     });
 
     setInterval(function () {
@@ -44,20 +43,18 @@ jQuery(document).ready(function ($) {
 
     function hasScrolled() {
         let st = $(this).scrollTop();
-        let headerHeight = $('header').outerHeight();
-
 
         // Make sure they scroll more than delta
         if (Math.abs(lastScrollTop - st) <= delta)
             return;
 
-        $.adjustHeader();
+
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
             // Scroll Down
-
-
+            $('.arrow').removeClass("upArrow");
+            $.adjustHeader();
         } else {
             // Scroll Up
             if (st + $(window).height() < $(document).height()) {
