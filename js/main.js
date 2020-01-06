@@ -12,6 +12,8 @@ jQuery(document).ready(function ($) {
 
         if ($('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: $('header').height() + $('#top-header').height() });
+            console.log('sucess', $('header').height() + $('#top-header').height());
+
         } else {
             $('#network_nav').css({ top: '-60px' });
         }
