@@ -5,11 +5,10 @@ jQuery(document).ready(function ($) {
         let headerHeight = $('header').height();
         let headerPos = $('header').offset().top;
 
-        if ($('.arrow').hasClass('downArrow')) {
-            $('#network_nav').css({ top: -headerHeight });
-        } else {
-            if(headerPos >)
+        if ($('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: headerHeight });
+        } else {
+            $('#network_nav').css({ top: -headerHeight });
         }
     };
 
@@ -38,7 +37,7 @@ jQuery(document).ready(function ($) {
     function hasScrolled() {
         let st = $(this).scrollTop();
         let headerHeight = $('header').outerHeight();
-        let
+
 
         // Make sure they scroll more than delta
         if (Math.abs(lastScrollTop - st) <= delta)
