@@ -3,14 +3,14 @@ jQuery(document).ready(function ($) {
 
     $.adjustHeader = function () {
         let headerHeight = $('header').height();
+        console.log('1');
         if ($('.arrow').hasClass('downArrow')){
+            console.log('2');
             $('#network_nav').css({ top: headerHeight });
         } else {
+            console.log('3');
             $('#network_nav').css({ top: -headerHeight });
         }
-
-
-
     };
 
     $.toggleArrow = function () {
@@ -26,6 +26,7 @@ jQuery(document).ready(function ($) {
     $('.logo_container').click(function(e){
         e.preventDefault();
         $.toggleArrow(function () {
+            console.log('toggle done');
             $.adjustHeader();
         });
     });
