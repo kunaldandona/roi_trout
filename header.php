@@ -265,7 +265,7 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
                     <img src="<?php echo esc_attr( $logo ); ?>" alt="<?php echo esc_attr( get_bloginfo( 'name' ) ); ?>" id="logo" data-height-percentage="<?php echo esc_attr( et_get_option( 'logo_height', '54' ) ); ?>" />
                 </a>
-                <div class="arrow downArrow bounce">
+                <div class="arrow bounce">
                     <img width="40" height="40" alt="" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4NCjwhLS0gR2VuZXJhdG9yOiBBZG9iZSBJbGx1c3RyYXRvciAyMi4wLjAsIFNWRyBFeHBvcnQgUGx1Zy1JbiAuIFNWRyBWZXJzaW9uOiA2LjAwIEJ1aWxkIDApICAtLT4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0i0KHQu9C+0LlfMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgeD0iMHB4IiB5PSIwcHgiDQoJIHZpZXdCb3g9IjAgMCAzMiAzMiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzIgMzI7IiB4bWw6c3BhY2U9InByZXNlcnZlIj4NCjxzdHlsZSB0eXBlPSJ0ZXh0L2NzcyI+DQoJLnN0MHtmaWxsOiNGRkZGRkY7fQ0KPC9zdHlsZT4NCjxwYXRoIGlkPSJFeHBhbmRfTW9yZSIgY2xhc3M9InN0MCIgZD0iTTI0LjMsMTEuM0wxNiwxOS42bC04LjMtOC4zYy0wLjQtMC40LTEtMC40LTEuNCwwYy0wLjQsMC40LTAuNCwxLDAsMS40bDksOWwwLDBsMCwwDQoJYzAuNCwwLjQsMSwwLjQsMS40LDBsOS05YzAuNC0wLjQsMC40LTEsMC0xLjRDMjUuMywxMC45LDI0LjcsMTAuOSwyNC4zLDExLjN6Ii8+DQo8L3N2Zz4NCg==">
                 </div>
             </div>

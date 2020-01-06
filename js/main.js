@@ -16,6 +16,7 @@ jQuery(document).ready(function ($) {
     $('.logo_container').click(function(e){
         e.preventDefault();
         $('.arrow').toggleClass("upArrow");
+        $.adjustHeader();
     });
 
     var didScroll;
