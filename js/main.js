@@ -14,7 +14,7 @@ jQuery(document).ready(function ($) {
         if(headerPos <= 60 && $('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: headTop });
         } else if(headerPos > 60 && $('.arrow').hasClass('upArrow')) {
-            $('#network_nav').css({ top: headTop-40 });
+            $('#network_nav').css({ top: headTop-20 });
             console.log(headTop-40);
         }
 
