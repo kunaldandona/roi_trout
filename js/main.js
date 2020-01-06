@@ -25,10 +25,7 @@ jQuery(document).ready(function ($) {
 
     $('.logo_container').click(function(e){
         e.preventDefault();
-        $.toggleArrow(function () {
-            console.log('toggle done');
-            $.adjustHeader();
-        });
+        $.toggleArrow($.adjustHeader());
     });
 
 
