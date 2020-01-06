@@ -63,6 +63,7 @@ jQuery(document).ready(function ($) {
             // Scroll Down
             $('.arrow').removeClass("upArrow");
             $.adjustHeader();
+            console.log('up');
         } else {
             // Scroll Up
             if (st + $(window).height() < $(document).height()) {
