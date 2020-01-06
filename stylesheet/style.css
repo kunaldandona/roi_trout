@@ -222,11 +222,15 @@ Version:  1.0.2
 #top-header #et-info {
   padding-top: 0.75em;
 }
-#top-header #et-secondary-nav li {
+#top-header #et-secondary-nav {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   min-height: 30px;
 }
 #top-header #et-secondary-nav li a {
   text-transform: uppercase;
+  padding: 0em;
 }
 
 body {

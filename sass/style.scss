@@ -276,10 +276,15 @@ Version:  1.0.2
   }
 
   #et-secondary-nav{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 30px;
     li{
-      min-height: 30px;
+
       a{
         text-transform: uppercase;
+        padding: .0em;
       }
     }
   }
