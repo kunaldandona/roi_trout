@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
         let headerPos = $('header').offset().top;
 
         if ($('.arrow').hasClass('upArrow')) {
-            $('#network_nav').css({ top: headerHeight });
+            $('#network_nav').css({ top: $('header').height() + $('#top-header').height() });
         } else {
             $('#network_nav').css({ top: '-60px' });
         }
