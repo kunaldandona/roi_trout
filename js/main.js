@@ -7,9 +7,10 @@ jQuery(document).ready(function ($) {
     };
     $.toggleArrow = function () {
         if ( $('#network_nav').css('top') > 0 ) {
-            $('.logo_container .arrow .img').css({ transform: 'rotate(180deg)' });
+            $('.logo_container .arrow img').css({ transform: 'rotate(180deg)' });
         } else {
-            $('.logo_container .arrow .img').css({ transform: 'rotate(0deg)' });
+            $('.logo_container .arrow img').css({ transform: 'rotate(0deg)' });
+
         }
     };
 
