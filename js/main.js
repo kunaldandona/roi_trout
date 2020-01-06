@@ -58,7 +58,7 @@ jQuery(document).ready(function ($) {
         } else {
             // Scroll Up
             if (st + $(window).height() < $(document).height()) {
-                $('header').removeClass('nav-up');
+                $.adjustHeader();
             }
         }
 
