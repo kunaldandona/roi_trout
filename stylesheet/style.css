@@ -103,7 +103,7 @@ Version:  1.0.2
   position: fixed;
   top: 124px;
   width: 100%;
-  height: 80px;
+  height: 60px;
   z-index: 30;
   border-top: 3px solid #f5f5f5;
   box-sizing: border-box;
@@ -117,7 +117,7 @@ Version:  1.0.2
   justify-content: space-between;
 }
 #network_nav .trout_container .trout-links a {
-  height: 80px;
+  height: 60px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -143,7 +143,7 @@ Version:  1.0.2
   margin-right: 20px;
 }
 #network_nav .trout_container .trout-links a .trout-site {
-  height: 80px;
+  height: 60px;
   display: flex;
   justify-items: center;
   align-items: center;
