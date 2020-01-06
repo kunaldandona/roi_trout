@@ -3,17 +3,10 @@ jQuery(document).ready(function ($) {
     var headTop = $('header').height() + $('#top-header').height();
 
     $.adjustHeader = function () {
-        let mainHeaderHeight = $('header').height();
-        let secondHeight = $('#top-header').height();
-
-        let headerHeight = mainHeaderHeight + secondHeight;
-        console.log(headerHeight);
         let headerPos = $('header').offset().top;
 
         if ($('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: $('header').height() + $('#top-header').height() });
-            console.log('sucess', $('header').height() + $('#top-header').height());
-
         } else {
             $('#network_nav').css({ top: '-60px' });
         }
@@ -22,6 +15,7 @@ jQuery(document).ready(function ($) {
             $('#network_nav').css({ top: headTop });
         } else if(headerPos > 60 && $('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: headTop-40 });
+            console.log(headTop-40);
         }
 
         if(headerPos <= 60){
