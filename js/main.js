@@ -7,7 +7,7 @@ jQuery(document).ready(function ($) {
         let secondHeight = $('#top-header').height();
 
         let headerHeight = mainHeaderHeight + secondHeight;
-
+        console.log(headerHeight);
         let headerPos = $('header').offset().top;
 
         if ($('.arrow').hasClass('upArrow')) {
