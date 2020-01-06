@@ -21,7 +21,7 @@ Version:  1.0.2
   width: 320px;
 }
 #main-header #top-menu-nav #top-menu li .sub-menu li a {
-  width: 260px;
+  width: 280px;
   color: #000;
 }
 #main-header #top-menu-nav #top-menu li ul {
@@ -53,7 +53,7 @@ Version:  1.0.2
   position: absolute;
   width: 100%;
   height: 4px;
-  bottom: 20px;
+  bottom: 40px;
   left: 0;
   background-color: #fff;
   visibility: hidden;
@@ -138,6 +138,10 @@ Version:  1.0.2
     -webkit-transform: translateY(-15px);
     transform: translateY(-15px);
   }
+}
+
+#et-fixed-header #top-menu-nav .single-menu a:before, #et-fixed-header #top-menu-nav .mega-menu a:before {
+  bottom: 20px;
 }
 
 .et_header_style_left .logo_container {
