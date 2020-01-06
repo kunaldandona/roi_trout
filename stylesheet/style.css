@@ -136,7 +136,7 @@ Version:  1.0.2
 
 .et_header_style_left .logo_container {
   display: inline-block;
-  width: max-content;
+  width: 300px;
 }
 
 .et_fixed_nav #main-header, .et_fixed_nav #top-header {
