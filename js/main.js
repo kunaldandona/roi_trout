@@ -1,5 +1,5 @@
 jQuery(document).ready(function ($) {
-    console.log('working', $('header').height());
+    console.log('working', $('header').outerHeight());
 
     $.adjustHeader = function () {
         let headerHeight = $('header').height();
