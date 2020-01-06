@@ -228,9 +228,13 @@ Version:  1.0.2
   align-items: center;
   min-height: 30px;
 }
+#top-header #et-secondary-nav li {
+  padding: 0 5px;
+}
 #top-header #et-secondary-nav li a {
   text-transform: uppercase;
   padding: 0em;
+  line-height: 2.5;
 }
 
 body {
