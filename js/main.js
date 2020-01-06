@@ -5,12 +5,14 @@ jQuery(document).ready(function ($) {
         let headerHeight = $('header').height();
         $('#network_nav').css({ top: headerHeight });
     };
-    $.toggleArrow = function () {
-        if ( $('#network_nav').css('top') > 0 ) {
-            $('.logo_container .arrow img').css({ transform: 'rotate(180deg)' });
-        } else {
-            $('.logo_container .arrow img').css({ transform: 'rotate(0deg)' });
 
+    $.toggleArrow = function () {
+        if ($('.arrow').hasClass('downArrow')) {
+            $('.arrow').removeClass('downArrow');
+            $('.arrow').addClass('upArrow');
+        } else {
+            $('.arrow').removeClass('upArrow');
+            $('.arrow').addClass('downArrow');
         }
     };
 

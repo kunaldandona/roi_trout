@@ -139,6 +139,10 @@ Version:  1.0.2
     display: inline-block;
     vertical-align: middle;
     margin-left: 20px;
+
+    img{
+      transition: all 0.4s linear;
+    }
   }
   .downArrow img{
     transform: rotate(0deg);

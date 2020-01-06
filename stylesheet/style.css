@@ -99,6 +99,9 @@ Version:  1.0.2
   vertical-align: middle;
   margin-left: 20px;
 }
+#main-header .arrow img {
+  transition: all 0.4s linear;
+}
 #main-header .downArrow img {
   transform: rotate(0deg);
 }
