@@ -281,9 +281,7 @@ Version:  1.0.2
     align-items: center;
     min-height: 30px;
 
-    .current-menu-item{
-      background-color: $forestGreen;
-    }
+
 
     li{
       padding: 0 15px;
@@ -291,11 +289,21 @@ Version:  1.0.2
       transition: all 0.4s ease-out;
       &:hover{
         background-color: rgba(20,45,6,0.6);
+        a{
+          opacity: 1;
+        }
       }
       a{
         text-transform: uppercase;
         padding: .0em;
         line-height: 2.5;
+      }
+    }
+
+    .current-menu-item{
+      background-color: $forestGreen;
+      &:hover{
+        background-color: $forestGreen;
       }
     }
   }
