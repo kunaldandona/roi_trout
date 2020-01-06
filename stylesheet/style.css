@@ -217,6 +217,7 @@ Version:  1.0.2
 
 #top-header .container {
   max-width: 1920px;
+  padding: 0em;
 }
 #top-header #et-info {
   padding-top: 0.75em;
