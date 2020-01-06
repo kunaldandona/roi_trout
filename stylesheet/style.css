@@ -140,7 +140,7 @@ Version:  1.0.2
   }
 }
 
-#et-fixed-header #top-menu-nav .single-menu a:before, #et-fixed-header #top-menu-nav .mega-menu a:before {
+.et-fixed-header #top-menu-nav .single-menu a:before, .et-fixed-header #top-menu-nav .mega-menu a:before {
   bottom: 20px;
 }
 
