@@ -14,10 +14,14 @@ jQuery(document).ready(function ($) {
 
         if(headerPos <= 60 && $('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: headTop });
-            $('.arrow img').attr('width', 40);
-            $('.arrow img').attr('height', 40);
         } else if(headerPos > 60 && $('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: headTop-40 });
+        }
+
+        if(headerPos <= 60){
+            $('.arrow img').attr('width', 40);
+            $('.arrow img').attr('height', 40);
+        } else {
             $('.arrow img').attr('width', 30);
             $('.arrow img').attr('height', 30);
         }
