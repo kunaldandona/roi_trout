@@ -251,6 +251,13 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
         </div>
     </div>
 
+    <div class="sub-header">
+        <?php
+        if ( true === $show_header_social_icons ) {
+            get_template_part( 'includes/social_icons', 'header' );
+        } ?>
+    </div>
+
     <header id="main-header" class="trout-header" data-height-onload="<?php echo esc_attr( et_get_option( 'menu_height', '66' ) ); ?>">
         <div class="container clearfix et_menu_container">
             <?php
