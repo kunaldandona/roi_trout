@@ -162,6 +162,11 @@ Version:  1.0.2
 #network_nav .trout_container .trout-links a .current_site span {
   border-bottom: 5px solid #fff;
 }
+#network_nav .arrow {
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 1%;
+}
 #network_nav .downArrow img {
   transform: rotate(0deg);
 }
