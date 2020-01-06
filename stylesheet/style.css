@@ -78,6 +78,12 @@ Version:  1.0.2
   right: 0 !important;
   width: 60%;
 }
+#main-header #et-top-navigation {
+  padding-top: 40px;
+}
+#main-header .et-fixed-header #et-top-navigation {
+  padding-top: 40px;
+}
 #main-header .container {
   max-width: 1920px;
 }
@@ -136,7 +142,7 @@ Version:  1.0.2
 
 .et_header_style_left .logo_container {
   display: inline-block;
-  width: 300px;
+  width: 320px;
 }
 
 .et_fixed_nav #main-header, .et_fixed_nav #top-header {

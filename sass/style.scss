@@ -112,6 +112,13 @@ Version:  1.0.2
     }
   }
 
+  #et-top-navigation{
+    padding-top: 40px;
+  }
+  .et-fixed-header #et-top-navigation{
+    padding-top: 40px;
+  }
+
   .container{
     max-width: 1920px;
   }
@@ -182,7 +189,7 @@ Version:  1.0.2
 
 .et_header_style_left .logo_container {
   display: inline-block;
-  width: 300px;
+  width: 320px;
 }
 
 .et_fixed_nav #main-header, .et_fixed_nav #top-header{

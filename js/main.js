@@ -3,7 +3,11 @@ jQuery(document).ready(function ($) {
     var headTop = $('header').height();
 
     $.adjustHeader = function () {
-        let headerHeight = $('header').height();
+        let mainheaderHeight = $('header').height();
+        let secondHeight = $('#top-header').height();
+
+        let headerHeight = mainheaderHeight + secondHeight;
+
         let headerPos = $('header').offset().top;
 
         if ($('.arrow').hasClass('upArrow')) {
