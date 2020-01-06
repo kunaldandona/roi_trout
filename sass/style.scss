@@ -142,7 +142,7 @@ Version:  1.0.2
 }
 
 #network_nav{
-  position: absolute;
+  position: fixed;
   top: 124px;
   width: 100%;
   height: $networkHeaderHeight;
@@ -177,7 +177,7 @@ Version:  1.0.2
           }
         }
         img{
-          max-height: 40px;
+          max-height: 30px;
           margin-right: 20px;
         }
         .trout-site{
@@ -205,5 +205,41 @@ Version:  1.0.2
       }
     }
   }
+
+  .downArrow img{
+    transform: rotate(0deg);
+  }
+
+  .upArrow img{
+    transform: rotate(180deg);
+  }
+
+  .bounce {
+    -moz-animation: bounce 3s infinite;
+    -webkit-animation: bounce 3s infinite;
+    animation: bounce 3s infinite;
+  }
+
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      -moz-transform: translateY(0);
+      -ms-transform: translateY(0);
+      -webkit-transform: translateY(0);
+      transform: translateY(0);
+    }
+    40% {
+      -moz-transform: translateY(-30px);
+      -ms-transform: translateY(-30px);
+      -webkit-transform: translateY(-30px);
+      transform: translateY(-30px);
+    }
+    60% {
+      -moz-transform: translateY(-15px);
+      -ms-transform: translateY(-15px);
+      -webkit-transform: translateY(-15px);
+      transform: translateY(-15px);
+    }
+  }
+
 }
 
