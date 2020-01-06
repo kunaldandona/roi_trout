@@ -8,7 +8,7 @@ jQuery(document).ready(function ($) {
         if ($('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: headerHeight });
         } else {
-            $('#network_nav').css({ top: -headerHeight });
+            $('#network_nav').css({ top: '-60px' });
         }
     };
 
