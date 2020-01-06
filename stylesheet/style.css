@@ -130,7 +130,8 @@ Version:  1.0.2
     transform: translateY(-15px);
   }
 }
-#main-header .et_header_style_left .logo_container {
+
+.et_header_style_left .logo_container {
   width: fit-content;
   display: inline-block;
 }
