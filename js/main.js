@@ -44,13 +44,18 @@ jQuery(document).ready(function ($) {
     }, 250);
 
     function hasScrolled() {
-        var st = $(this).scrollTop();
+        let st = $(this).scrollTop();
+        let headerHeight = $('header').outerHeight();
 
         // Make sure they scroll more than delta
         if (Math.abs(lastScrollTop - st) <= delta)
             return;
 
-        $('#network_nav').css({ top: headerHeight });
+        if ($('.arrow').hasClass('downArrow')) {
+            $('#network_nav').css({top: -headerHeight});
+        } else {
+            $('#network_nav').css({top: headerHeight});
+        }
         // If they scrolled down and are past the navbar, add class .nav-up.
         // This is necessary so you never see what is "behind" the navbar.
         if (st > lastScrollTop && st > navbarHeight) {
