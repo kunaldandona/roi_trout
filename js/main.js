@@ -1,12 +1,12 @@
 jQuery(document).ready(function ($) {
 
-    var headTop = $('header').height();
+    var headTop = $('header').height() + $('#top-header').height();
 
     $.adjustHeader = function () {
-        let mainheaderHeight = $('header').height();
+        let mainHeaderHeight = $('header').height();
         let secondHeight = $('#top-header').height();
 
-        let headerHeight = mainheaderHeight + secondHeight;
+        let headerHeight = mainHeaderHeight + secondHeight;
 
         let headerPos = $('header').offset().top;
 
