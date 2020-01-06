@@ -228,8 +228,16 @@ Version:  1.0.2
   align-items: center;
   min-height: 30px;
 }
+#top-header #et-secondary-nav .current-menu-item {
+  background-color: #142d06;
+}
 #top-header #et-secondary-nav li {
-  padding: 0 5px;
+  padding: 0 15px;
+  margin-right: 0;
+  transition: all 0.4s ease-out;
+}
+#top-header #et-secondary-nav li:hover {
+  background-color: rgba(20, 45, 6, 0.6);
 }
 #top-header #et-secondary-nav li a {
   text-transform: uppercase;
