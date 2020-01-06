@@ -269,8 +269,9 @@ Version:  1.0.2
   .container{
     max-width: 1920px;
   }
-  a{
-    color: $headerWhite;
-  }
+
 }
 
+body {
+  font-family: "mr-eaves-xl-modern", sans-serif;
+}
