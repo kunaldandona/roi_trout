@@ -26,7 +26,8 @@ jQuery(document).ready(function ($) {
     });
 
     $(window).scroll(function(){
-        $.adjustHeader();
+        let headerPos = $('header').offset().top;
+        console.log(headerPos);
     });
 
 });
