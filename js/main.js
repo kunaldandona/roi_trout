@@ -12,7 +12,7 @@ jQuery(document).ready(function ($) {
         }
 
         if(headerPos <= 60 && $('.arrow').hasClass('upArrow')) {
-            $('#network_nav').css({ top: headTop });
+            $('#network_nav').css({ top: headTop - 1 });
         } else if(headerPos > 60 && $('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: headTop-21 });
             console.log(headTop-41);
