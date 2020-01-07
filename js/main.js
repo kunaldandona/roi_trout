@@ -14,8 +14,8 @@ jQuery(document).ready(function ($) {
         if(headerPos <= 60 && $('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: headTop });
         } else if(headerPos > 60 && $('.arrow').hasClass('upArrow')) {
-            $('#network_nav').css({ top: headTop-20 });
-            console.log(headTop-40);
+            $('#network_nav').css({ top: headTop-21 });
+            console.log(headTop-41);
         }
 
         if(headerPos <= 60){
@@ -63,11 +63,11 @@ jQuery(document).ready(function ($) {
             // Scroll Down
             $('.arrow').removeClass("upArrow");
             $.adjustHeader();
-            console.log('up');
         } else {
             // Scroll Up
             if (st + $(window).height() < $(document).height()) {
                 $.adjustHeader();
+                console.log('up');
             }
         }
 
