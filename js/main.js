@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
         let headerPos = $('header').offset().top;
 
         if ($('.arrow').hasClass('upArrow')) {
-            $('#network_nav').css({ top: $('header').height() + $('#top-header').height() });
+            $('#network_nav').css({ top: $('header').height() + $('#top-header').height() - 1});
         } else {
             $('#network_nav').css({ top: '-60px' });
         }
@@ -67,7 +67,6 @@ jQuery(document).ready(function ($) {
             // Scroll Up
             if (st + $(window).height() < $(document).height()) {
                 $.adjustHeader();
-                console.log('up');
             }
         }
 
