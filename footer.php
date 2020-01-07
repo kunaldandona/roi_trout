@@ -43,7 +43,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 					}
 				?>
 
-						<p id="footer-info">Copyrights &copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a><!-- | <em>Website by <a target="_blank" title="Napa Web Designer" href="http://designsbytierney.com">David Tierney</a></em>--></p>
+						<p id="footer-info">Copyrightss &copy; <?php echo date("Y") ?> <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a><!-- | <em>Website by <a target="_blank" title="Napa Web Designer" href="http://designsbytierney.com">David Tierney</a></em>--></p>
 					</div>	<!-- .container -->
 				</div>
 			</footer> <!-- #main-footer -->
