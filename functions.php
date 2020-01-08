@@ -14,17 +14,11 @@ function my_acf_op_init() {
 
         // Add parent.
         $parent = acf_add_options_page(array(
-            'page_title'  => __('Theme General Settings'),
-            'menu_title'  => __('Theme Settings'),
+            'page_title'  => __('General Settings'),
+            'menu_title'  => __('Trout Creek Global'),
             'redirect'    => false,
         ));
 
-        // Add sub page.
-        $child = acf_add_options_sub_page(array(
-            'page_title'  => __('Social Settings'),
-            'menu_title'  => __('Social'),
-            'parent_slug' => $parent['menu_slug'],
-        ));
     }
 }
 
