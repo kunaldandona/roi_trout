@@ -5,9 +5,9 @@
  */
 global $troutnetwork, $current;
 
-if( function_exists('acf_add_options_page') ) {
-    acf_add_options_page();
-}
+
+acf_add_options_page();
+
 
 
 $troutnetwork = array(
