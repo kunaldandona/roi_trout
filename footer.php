@@ -40,6 +40,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                         <div class="footer-wrap">
                             <div class="footer-col">
                                 <img class="footer-logo" src='<?= get_stylesheet_directory_uri() . '/assets/trout-creek-logo.png' ?>' alt="">
+                                <p><?= get_bloginfo() ?></p>
                                 <?php
                                 if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
                                     get_template_part( 'includes/social_icons', 'footer' );

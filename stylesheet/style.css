@@ -283,5 +283,9 @@ body {
   display: flex;
   justify-content: space-between;
 }
+#footer-bottom .footer-wrap .footer-col .footer-logo {
+  max-width: 200px;
+  padding-bottom: 50px;
+}
 
 /*# sourceMappingURL=style.css.map */
