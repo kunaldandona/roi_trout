@@ -34,6 +34,11 @@ body {
   .et-social-icons {
     float: none;
   }
+  #footer-info{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+  }
 
   .footer-wrap{
     display: flex;
@@ -42,11 +47,18 @@ body {
     .footer-col{
       flex: 0 1 20%;
 
+      &:nth-child(1){
+        p{
+          padding-bottom: 30px;
+        }
+      }
+
 
       .footer-logo{
         max-width: 200px;
         padding-bottom: 40px;
       }
+
       .et-social-icons{
         li{
           margin: .0em;

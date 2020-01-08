@@ -50,6 +50,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             </div>
                             <div class="footer-col">
                                 <div class="footer-network-links">
+                                    <h2>Trout Creek For:</h2>
                                     <ul>
                                         <?php global $troutnetwork, $current;
                                         $current = get_current_blog_id();
@@ -57,7 +58,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
                                         foreach ($troutnetwork as $site_id => $site_info) {
                                             $active = ($current == $site_id) ? " current_site" : '';
-                                            echo "<li class='footer-link {$active}'><a href='{$site_info['url']}' target='_Blank' id='footer-link-{$site_id}'>For {$site_info['title']}</a></li>";
+                                            echo "<li class='footer-link {$active}'><a href='{$site_info['url']}' target='_Blank' id='footer-link-{$site_id}'>{$site_info['title']}</a></li>";
                                         }
                                         ?>
                                     </ul>

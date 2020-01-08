@@ -279,12 +279,20 @@ body {
 #footer-bottom .et-social-icons {
   float: none;
 }
+#footer-bottom #footer-info {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
 #footer-bottom .footer-wrap {
   display: flex;
   justify-content: space-between;
 }
 #footer-bottom .footer-wrap .footer-col {
   flex: 0 1 20%;
+}
+#footer-bottom .footer-wrap .footer-col:nth-child(1) p {
+  padding-bottom: 30px;
 }
 #footer-bottom .footer-wrap .footer-col .footer-logo {
   max-width: 200px;
