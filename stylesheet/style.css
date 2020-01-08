@@ -294,6 +294,9 @@ body {
 }
 #footer-bottom #footer-info a {
   color: white;
+}
+#footer-bottom #footer-info .roi-credit {
+  color: white;
   font-style: normal;
   letter-spacing: 0;
   font-weight: 900;
@@ -301,8 +304,6 @@ body {
   font-size: 16px;
   opacity: 1;
   text-shadow: 2px 2px #728b49;
-}
-#footer-bottom #footer-info .roi-credit {
   position: relative;
 }
 #footer-bottom #footer-info .roi-credit:before {

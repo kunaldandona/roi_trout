@@ -48,15 +48,16 @@ body {
     text-transform: uppercase;
   a{
     color: white;
-    font-style: normal;
-    letter-spacing: 0;
-    font-weight: 900;
-    padding: 0 5px;
-    font-size: 16px;
-    opacity: 1;
-    text-shadow: 2px 2px #728b49;
   }
     .roi-credit{
+      color: white;
+      font-style: normal;
+      letter-spacing: 0;
+      font-weight: 900;
+      padding: 0 5px;
+      font-size: 16px;
+      opacity: 1;
+      text-shadow: 2px 2px #728b49;
       position: relative;
 
       &:before{
