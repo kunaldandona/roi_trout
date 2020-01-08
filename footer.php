@@ -78,7 +78,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             </div>
                         </div>
 
-                        <p id="footer-info">crafted by <a href="https://roimediaworks.ca/">roi media works</a>. 2020 © <a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>. all rights reserved.</p>
+                        <p id="footer-info">crafted by&nbsp;<a class="roi-credit" href="https://roimediaworks.ca/">roi media works</a>. 2020 © &nbsp;<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>. all rights reserved.</p>
 						</div>	<!-- .container -->
 				</div>
 			</footer> <!-- #main-footer -->

@@ -291,8 +291,27 @@ body {
   font-family: "mr-eaves-xl-modern", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  font-style: oblique;
+}
+#footer-bottom #footer-info a {
+  color: white;
+  font-style: normal;
+  letter-spacing: 0;
+  font-weight: 900;
+  padding: 0 5px;
+  font-size: 16px;
+  opacity: 1;
+  text-shadow: 2px 2px #728b49;
+}
+#footer-bottom #footer-info .roi-credit {
+  position: relative;
+}
+#footer-bottom #footer-info .roi-credit:before {
+  content: "";
+  position: absolute;
+  height: 5px;
+  bottom: 0;
+  background: rgba(114, 139, 73, 0.56);
+  width: 90%;
 }
 #footer-bottom .footer-wrap {
   display: flex;
@@ -367,7 +386,6 @@ body {
   display: none;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .ginput_container {
-  margin-top: 20px;
   padding: 10px;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .ginput_container input {
