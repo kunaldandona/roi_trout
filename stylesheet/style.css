@@ -328,7 +328,7 @@ body {
 #footer-bottom #footer-info .roi-credit:hover:before {
   background: linear-gradient(-45deg, #728b49, #1741a0, #23a6d5, #23d5ab);
   background-size: 400% 400%;
-  animation: gradientBG 10s ease infinite;
+  animation: gradientBG 3s ease infinite;
 }
 #footer-bottom .footer-wrap {
   display: flex;
@@ -438,6 +438,10 @@ body {
   padding: 10px;
   /* margin: 0 auto; */
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease-out;
+}
+#footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_footer .gform_button:hover {
+  background-color: #27560c;
 }
 
 /*# sourceMappingURL=style.css.map */

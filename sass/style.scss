@@ -89,7 +89,7 @@ body {
         &:before{
           background: linear-gradient(-45deg, #728b49, #1741a0, #23a6d5, #23d5ab);
           background-size: 400% 400%;
-          animation: gradientBG 10s ease infinite;
+          animation: gradientBG 3s ease infinite;
         }
       }
     }
@@ -217,11 +217,16 @@ body {
             font-weight: 700;
             text-align: left;
             font-size: 16px;
-            background-color: #728b49;
+            background-color: $oliveGreen;
             width: 100%;
             padding: 10px;
             /* margin: 0 auto; */
             box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+            transition: all 0.4s ease-out;
+
+            &:hover{
+              background-color: #27560c;
+            }
           }
         }
 
