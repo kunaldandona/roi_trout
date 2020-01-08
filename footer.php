@@ -64,6 +64,10 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                                     </ul>
                                 </div>
                             </div>
+                            <div class="footer-col">
+                                <h2>Visit</h2>
+                                <p><?= get_field('footer_address', 'option'); ?></p>
+                            </div>
                         </div>
 
 
