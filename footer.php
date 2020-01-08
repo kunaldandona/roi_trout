@@ -50,9 +50,9 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             </div>
                             <div class="footer-col">
                                 <div class="footer-network-links">
-                                    <h2>Trout Creek For:</h2>
+                                    <h2>Trout Creek For</h2>
                                     <ul>
-                                        <?php global $troutnetwork, $current;
+                                        <?
                                         $current = get_current_blog_id();
                                         $logoImg = $template_directory_uri . '/assets/trout-creek-logo.png';
 
@@ -71,6 +71,10 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             <div class="footer-col">
                                 <h2>Legal</h2>
                                 <?php wp_nav_menu( array( 'theme_location' => 'footer_menu' ) ); ?>
+                            </div>
+                            <div class="footer-col">
+                                <h2>Contact Us</h2>
+
                             </div>
                         </div>
 
