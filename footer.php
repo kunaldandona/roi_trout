@@ -74,7 +74,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             </div>
                             <div class="footer-col">
                                 <h2>Contact Us</h2>
-                                <?php gravity_form( 1, $display_title = true, $display_description = false, $display_inactive = false, $field_values = null, $ajax = true, '', $echo = false );
+                                <?php gravity_form( 1, $display_title = true, $display_description = false, $display_inactive = false, $field_values = null, $ajax = true, '', $echo = true );
                                 ?>
                             </div>
                         </div>
