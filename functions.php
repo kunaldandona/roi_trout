@@ -6,7 +6,7 @@
 global $troutnetwork, $current;
 
 
-add_action('acf/init', 'my_acf_op_init', 88);
+add_action('acf/init', 'my_acf_op_init');
 function my_acf_op_init() {
 
     // Check function exists.
@@ -19,6 +19,12 @@ function my_acf_op_init() {
             'redirect'    => false,
         ));
 
+        // Add sub page.
+        $child = acf_add_options_sub_page(array(
+            'page_title'  => __('Social Settings'),
+            'menu_title'  => __('Social'),
+            'parent_slug' => $parent['menu_slug'],
+        ));
     }
 }
 
