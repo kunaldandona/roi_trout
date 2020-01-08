@@ -316,10 +316,10 @@ body {
 #footer-bottom .footer-wrap .footer-col h2:hover:before {
   width: 80%;
 }
-#footer-bottom .footer-wrap .footer-col ul .footer-link {
+#footer-bottom .footer-wrap .footer-col ul li {
   padding: 3px 0;
 }
-#footer-bottom .footer-wrap .footer-col ul .footer-link a {
+#footer-bottom .footer-wrap .footer-col ul li a {
   color: #fff;
 }
 #footer-bottom .footer-wrap .footer-col:nth-child(1) {
