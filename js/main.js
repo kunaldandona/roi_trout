@@ -33,6 +33,17 @@ jQuery(document).ready(function ($) {
         $.adjustHeader();
     });
 
+    var state = false;
+
+    $('.logo_container').hover(() =>{
+        if(!$('.arrow').hasClass("upArrow")) {
+            $('.arrow').toggleClass("upArrow");
+            $.adjustHeader();
+        }
+    }, () => {
+        $.adjustHeader();
+    });
+
     var didScroll;
     var lastScrollTop = 0;
     var delta = 5;
