@@ -290,6 +290,22 @@ body {
 }
 #footer-bottom .footer-wrap .footer-col {
   flex: 0 1 20%;
+  position: relative;
+}
+#footer-bottom .footer-wrap .footer-col h2:before {
+  content: "";
+  position: absolute;
+  width: 60%;
+  height: 4px;
+  left: 0;
+  top: 40px;
+  background-color: #fff;
+  visibility: visible;
+  transform: scaleX(1);
+  transition: all 0.3s ease-in-out 0s;
+}
+#footer-bottom .footer-wrap .footer-col h2:hover:before {
+  width: 80%;
 }
 #footer-bottom .footer-wrap .footer-col:nth-child(1) p {
   padding-bottom: 30px;
