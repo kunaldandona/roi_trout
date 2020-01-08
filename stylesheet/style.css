@@ -263,4 +263,14 @@ body {
   font-weight: 300;
 }
 
+#footer-bottom {
+  background-color: #000;
+  color: #fff;
+  font-size: 14px;
+  position: relative;
+  padding: 120px 0 90px 0;
+  width: 100%;
+  z-index: 1;
+}
+
 /*# sourceMappingURL=style.css.map */
