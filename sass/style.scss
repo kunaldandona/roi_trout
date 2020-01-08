@@ -22,7 +22,7 @@ body {
   color: $footerWhite;
   font-size: 14px;
   position: relative;
-  padding: 120px 0 90px 0;
+  padding: 120px 0 0px 0;
   width: 100%;
   z-index: 1;
   border-top: 5px solid $oliveGreen;
@@ -35,9 +35,14 @@ body {
     float: none;
   }
   #footer-info{
-    position: absolute;
-    bottom: 0;
-    right: 0;
+    display: flex;
+    color: #fff;
+    border-top: 2px solid #fff;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
   }
 
   .footer-wrap{
@@ -148,6 +153,8 @@ body {
         }
 
         .gform_footer{
+          padding: 0 10px 10px 10px;
+
           .gform_button{
             border: none;
             display: block;

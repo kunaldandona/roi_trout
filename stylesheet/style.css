@@ -268,7 +268,7 @@ body {
   color: #fff;
   font-size: 14px;
   position: relative;
-  padding: 120px 0 90px 0;
+  padding: 120px 0 0px 0;
   width: 100%;
   z-index: 1;
   border-top: 5px solid #728b49;
@@ -280,9 +280,14 @@ body {
   float: none;
 }
 #footer-bottom #footer-info {
-  position: absolute;
-  bottom: 0;
-  right: 0;
+  display: flex;
+  color: #fff;
+  border-top: 2px solid #fff;
+  width: 100%;
+  margin-top: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  justify-content: center;
 }
 #footer-bottom .footer-wrap {
   display: flex;
@@ -371,6 +376,9 @@ body {
   position: absolute;
   top: 0px;
   padding: 10px;
+}
+#footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_footer {
+  padding: 0 10px 10px 10px;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_footer .gform_button {
   border: none;
