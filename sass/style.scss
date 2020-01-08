@@ -45,7 +45,8 @@ body {
     justify-content: space-between;
 
     .footer-col{
-      flex: 0 1 20%;
+      flex: 0 1 15%;
+      margin-right: 5%;
       position: relative;
 
       h2{
@@ -84,9 +85,13 @@ body {
       }
 
       &:nth-child(1){
+        flex-basis: 20%;
         p{
           padding-bottom: 30px;
         }
+      }
+      &:nth-last-child(){
+        margin-right: 0;
       }
 
 
