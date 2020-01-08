@@ -272,5 +272,8 @@ body {
   width: 100%;
   z-index: 1;
 }
+#footer-bottom .container {
+  max-width: 1920px;
+}
 
 /*# sourceMappingURL=style.css.map */
