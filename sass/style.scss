@@ -18,14 +18,14 @@ body {
 
 
 #footer-bottom {
-  background-color: $footerBlack;
+  background-color: $forestGreen;
   color: $footerWhite;
   font-size: 14px;
   position: relative;
   padding: 120px 0 90px 0;
   width: 100%;
   z-index: 1;
-  border-top: 5px solid #728b49;
+  border-top: 5px solid $oliveGreen;
 
   .container{
     max-width: 1920px;
