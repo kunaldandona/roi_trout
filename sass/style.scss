@@ -42,7 +42,12 @@ body {
     margin-top: 40px;
     padding-top: 20px;
     padding-bottom: 20px;
-    justify-content: center;
+    justify-content: flex-end;
+    font-family: "mr-eaves-xl-modern",sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-style: oblique;
   }
 
   .footer-wrap{
