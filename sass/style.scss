@@ -75,6 +75,7 @@ body {
           }
         }
       }
+
       ul{
         li{
           padding: 3px 0;
@@ -90,11 +91,9 @@ body {
           padding-bottom: 30px;
         }
       }
-
       &:nth-child(5){
         margin-right: 0;
       }
-
 
       .footer-logo{
         max-width: 200px;
@@ -112,6 +111,42 @@ body {
             }
           }
         }
+      }
+
+      .footer-sub_wrapper{
+
+        .validation_error{
+          background: rgba(114, 139, 73,0.2);
+          border-radius: 5px;
+          padding: 10px 10px 10px 10px;
+        }
+        .gform_body{
+          ul {
+            li {
+              position: relative;
+              label{
+                display: none;
+              }
+              .ginput_container{
+                margin-top: 20px;
+                padding: 10px;
+                input{
+                  width: 100%;
+                  padding: 5px;
+                  font-size: 14px;
+                  color: $forestGreen;
+                  font-style: italic;
+                }
+              }
+              .validation_message{
+                position: absolute;
+                top: 0px;
+                padding: 10px;
+              }
+            }
+          }
+        }
+
       }
     }
   }

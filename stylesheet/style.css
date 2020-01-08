@@ -345,5 +345,32 @@ body {
 #footer-bottom .footer-wrap .footer-col .et-social-icons li a:hover {
   color: #728b49;
 }
+#footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .validation_error {
+  background: rgba(114, 139, 73, 0.2);
+  border-radius: 5px;
+  padding: 10px 10px 10px 10px;
+}
+#footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li {
+  position: relative;
+}
+#footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li label {
+  display: none;
+}
+#footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .ginput_container {
+  margin-top: 20px;
+  padding: 10px;
+}
+#footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .ginput_container input {
+  width: 100%;
+  padding: 5px;
+  font-size: 14px;
+  color: #142d06;
+  font-style: italic;
+}
+#footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .validation_message {
+  position: absolute;
+  top: 0px;
+  padding: 10px;
+}
 
 /*# sourceMappingURL=style.css.map */
