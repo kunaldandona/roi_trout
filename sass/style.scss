@@ -147,6 +147,28 @@ body {
           }
         }
 
+        .gform_footer{
+          .gform_button{
+            border: none;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            text-transform: uppercase;
+            outline: none;
+            overflow: hidden;
+            position: relative;
+            color: #fff;
+            font-weight: 700;
+            text-align: left;
+            font-size: 16px;
+            background-color: #728b49;
+            width: 100%;
+            padding: 10px;
+            /* margin: 0 auto; */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+          }
+        }
+
       }
     }
   }
