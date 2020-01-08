@@ -18,13 +18,6 @@ function my_acf_op_init() {
             'menu_title'  => __('Trout Creek Global'),
             'redirect'    => false,
         ));
-
-        // Add sub page.
-        $child = acf_add_options_sub_page(array(
-            'page_title'  => __('Social Settings'),
-            'menu_title'  => __('Social'),
-            'parent_slug' => $parent['menu_slug'],
-        ));
     }
 }
 
