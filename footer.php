@@ -52,7 +52,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                                 <div class="footer-network-links">
                                     <h2>Trout Creek For</h2>
                                     <ul>
-                                        <?
+                                        <?php global $troutnetwork, $current;
                                         $current = get_current_blog_id();
                                         $logoImg = $template_directory_uri . '/assets/trout-creek-logo.png';
 
