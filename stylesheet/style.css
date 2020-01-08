@@ -292,6 +292,14 @@ body {
   flex: 0 1 20%;
   position: relative;
 }
+#footer-bottom .footer-wrap .footer-col h2 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: 100;
+  color: #fff;
+  padding-bottom: 40px;
+  line-height: 2.5;
+}
 #footer-bottom .footer-wrap .footer-col h2:before {
   content: "";
   position: absolute;
@@ -306,6 +314,12 @@ body {
 }
 #footer-bottom .footer-wrap .footer-col h2:hover:before {
   width: 80%;
+}
+#footer-bottom .footer-wrap .footer-col ul .footer-link {
+  padding: 3px 0;
+}
+#footer-bottom .footer-wrap .footer-col ul .footer-link a {
+  color: #fff;
 }
 #footer-bottom .footer-wrap .footer-col:nth-child(1) p {
   padding-bottom: 30px;

@@ -49,6 +49,13 @@ body {
       position: relative;
 
       h2{
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 100;
+        color: #fff;
+        padding-bottom: 40px;
+        line-height: 2.5;
+
         &:before{
           content: "";
           position: absolute;
@@ -64,6 +71,14 @@ body {
         &:hover{
           &:before{
             width: 80%;
+          }
+        }
+      }
+      ul{
+        .footer-link{
+          padding: 3px 0;
+          a{
+            color: $footerWhite;
           }
         }
       }
