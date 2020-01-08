@@ -25,8 +25,15 @@ body {
   padding: 120px 0 90px 0;
   width: 100%;
   z-index: 1;
+  border-top: 5px solid #728b49;
 
   .container{
     max-width: 1920px;
   }
+
+  .et-social-icons {
+    float: none;
+  }
+
+
 }

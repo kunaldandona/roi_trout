@@ -46,6 +46,21 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                                 ?>
 
                             </div>
+                            <div class="footer-col">
+                                <div class="footer-network-links">
+                                    <ul>
+                                        <?php global $troutnetwork, $current;
+                                        $current = get_current_blog_id();
+                                        $logoImg = $template_directory_uri . '/assets/trout-creek-logo.png';
+
+                                        foreach ($troutnetwork as $site_id => $site_info) {
+                                            $active = ($current == $site_id) ? " current_site" : '';
+                                            echo "<li class='footer-link {$active}'><a href='{$site_info['url']}' target='_Blank' id='footer-link-{$site_id}'>For {$site_info['title']}</a></li>";
+                                        }
+                                        ?>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
 
 
