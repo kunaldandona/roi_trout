@@ -279,5 +279,9 @@ body {
 #footer-bottom .et-social-icons {
   float: none;
 }
+#footer-bottom .footer-wrap {
+  display: flex;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=style.css.map */
