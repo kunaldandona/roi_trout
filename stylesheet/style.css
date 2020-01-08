@@ -283,9 +283,21 @@ body {
   display: flex;
   justify-content: space-between;
 }
+#footer-bottom .footer-wrap .footer-col {
+  flex: 0 1 20%;
+}
 #footer-bottom .footer-wrap .footer-col .footer-logo {
   max-width: 200px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
+}
+#footer-bottom .footer-wrap .footer-col .et-social-icons li {
+  margin-right: 20px;
+}
+#footer-bottom .footer-wrap .footer-col .et-social-icons li a {
+  color: #fff;
+}
+#footer-bottom .footer-wrap .footer-col .et-social-icons li a:hover {
+  color: #728b49;
 }
 
 /*# sourceMappingURL=style.css.map */

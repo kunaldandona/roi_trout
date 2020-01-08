@@ -40,11 +40,23 @@ body {
     justify-content: space-between;
 
     .footer-col{
+      flex: 0 1 20%;
 
 
       .footer-logo{
         max-width: 200px;
-        padding-bottom: 50px;
+        padding-bottom: 40px;
+      }
+      .et-social-icons{
+        li{
+          margin-right: 20px;
+          a{
+            color: $footerWhite;
+            &:hover{
+              color: $oliveGreen;
+            }
+          }
+        }
       }
     }
   }
