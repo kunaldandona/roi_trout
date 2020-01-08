@@ -70,7 +70,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             </div>
                             <div class="footer-col">
                                 <h2>Legal</h2>
-                                <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
+                                <?php wp_nav_menu( array( 'theme_location' => 'footer_menu' ) ); ?>
                             </div>
                         </div>
 
