@@ -204,6 +204,10 @@
   //top: 30px!important;
 }
 
+#top-header, #et-secondary-nav li ul {
+  background-color: $oliveGreen;
+}
+
 #network_nav {
   position: fixed;
   top: -$networkHeaderHeight;
