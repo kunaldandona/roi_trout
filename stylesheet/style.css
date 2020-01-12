@@ -27,7 +27,7 @@ Version:  1.0.2
 #main-header #top-menu-nav #top-menu li ul {
   border-top: 3px solid #040F0F;
 }
-#main-header #top-menu-nav #top-menu li .single-menu li ul {
+#main-header #top-menu-nav #top-menu li .single-menu .sub-menu .sub-menu {
   left: 280px;
 }
 #main-header #top-menu-nav #top-menu li.et-reverse-direction-nav li ul {
