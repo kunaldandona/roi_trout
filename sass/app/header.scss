@@ -7,9 +7,6 @@
     #top-menu{
 
       li{
-        li ul {
-          left: 280px;
-        }
         .sub-menu li a, a {
           font-family: $font1;
           font-weight: 600;
@@ -28,6 +25,11 @@
 
         ul{
           border-top: 3px solid $oliveGreen;
+        }
+        .single-menu{
+          li ul {
+            left: 280px;
+          }
         }
       }
 
