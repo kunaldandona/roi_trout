@@ -72,4 +72,13 @@ function my_theme_scripts() {
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
 
+function sp_breadcrumbs_before() {
+    echo '<div class="trout-crumb">';
+}
+function sp_breadcrumbs_after() {
+    echo '</div>';
+}
+add_action('seopress_breadcrumbs_before_html', 'sp_breadcrumbs_before');
+add_action('seopress_breadcrumbs_after_html', 'sp_breadcrumbs_after');
+
 ?>
