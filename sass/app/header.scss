@@ -7,6 +7,9 @@
     #top-menu{
 
       li{
+        li ul {
+          left: 280px;
+        }
         .sub-menu li a, a {
           font-family: $font1;
           font-weight: 600;

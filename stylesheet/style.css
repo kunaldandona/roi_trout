@@ -10,6 +10,9 @@ Version:  1.0.2
   background-color: #248232;
   color: #FCFFFC;
 }
+#main-header #top-menu-nav #top-menu li li ul {
+  left: 280px;
+}
 #main-header #top-menu-nav #top-menu li .sub-menu li a, #main-header #top-menu-nav #top-menu li a {
   font-family: zeitung, sans-serif;
   font-weight: 600;
