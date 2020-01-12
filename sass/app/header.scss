@@ -331,10 +331,22 @@
 }
 
 .trout-crumb {
+  background-color: $oliveGreen;
+  padding: 30px;
+
   .breadcrumb {
     max-width: 1920px;
     margin: 0 auto;
     display: flex;
     justify-content: center;
+    li {
+      a {
+        color: $headerWhite;
+        font: $font1;
+        font-size: 18px;
+        text-transform: uppercase;
+
+      }
+    }
   }
 }

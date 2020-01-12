@@ -268,11 +268,21 @@ Version:  1.0.2
   background-color: #248232;
 }
 
+.trout-crumb {
+  background-color: #040F0F;
+  padding: 30px;
+}
 .trout-crumb .breadcrumb {
   max-width: 1920px;
   margin: 0 auto;
   display: flex;
   justify-content: center;
+}
+.trout-crumb .breadcrumb li a {
+  color: #FCFFFC;
+  font: zeitung, sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
 }
 
 body {
