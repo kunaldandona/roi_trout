@@ -1,3 +1,7 @@
 #top-menu li.mega-menu>ul {
     left: unset!important;
 }
+
+#top-menu li.mega-menu.mega-menu-parent li>.sub-menu {
+    width: 80% !important;
+}
