@@ -104,6 +104,12 @@ body {
       margin-right: 5%;
       position: relative;
 
+      a {
+        &:hover{
+          color: $oliveGreen;
+        }
+      }
+
       h2{
         font-size: 16px;
         text-transform: uppercase;

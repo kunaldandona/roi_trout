@@ -346,6 +346,9 @@ body {
   margin-right: 5%;
   position: relative;
 }
+#footer-bottom .footer-wrap .footer-col a:hover {
+  color: #040F0F;
+}
 #footer-bottom .footer-wrap .footer-col h2 {
   font-size: 16px;
   text-transform: uppercase;
