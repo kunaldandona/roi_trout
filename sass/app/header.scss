@@ -6,6 +6,10 @@
   #top-menu-nav{
     #top-menu{
 
+      li.mega-menu>ul>li>a:first-child{
+        border-bottom: none;
+      }
+
       li{
         .sub-menu li a, a {
           font-family: $font1;
