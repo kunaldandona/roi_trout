@@ -277,11 +277,12 @@ Version:  1.0.2
   margin: 0 auto;
   display: flex;
   justify-content: center;
+  color: #FCFFFC;
 }
 .trout-crumb .breadcrumb li a {
   color: #FCFFFC;
   font: zeitung, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   text-transform: uppercase;
 }
 
