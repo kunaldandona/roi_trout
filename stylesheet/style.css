@@ -347,7 +347,7 @@ body {
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 100;
-  color: #fff;
+  color: #FCFFFC;
   padding-bottom: 40px;
   line-height: 2.5;
 }
@@ -358,7 +358,7 @@ body {
   height: 4px;
   left: 0;
   top: 40px;
-  background-color: #fff;
+  background-color: #FCFFFC;
   visibility: visible;
   transform: scaleX(1);
   transition: all 0.3s ease-in-out 0s;
@@ -445,7 +445,7 @@ body {
   transition: all 0.4s ease-out;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_footer .gform_button:hover {
-  background-color: #27560c;
+  background-color: #040F0F;
 }
 
 /*# sourceMappingURL=style.css.map */
