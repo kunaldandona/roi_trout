@@ -7,32 +7,32 @@ Template: Divi
 Version:  1.0.2
 */
 #main-header {
-  background-color: #142d06;
-  color: #fff;
+  background-color: #248232;
+  color: #FCFFFC;
 }
 #main-header #top-menu-nav #top-menu li .sub-menu li a, #main-header #top-menu-nav #top-menu li a {
   font-family: zeitung, sans-serif;
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
-  color: #fff;
+  color: #FCFFFC;
 }
 #main-header #top-menu-nav #top-menu li .sub-menu {
   width: 320px;
 }
 #main-header #top-menu-nav #top-menu li .sub-menu li a {
   width: 280px;
-  color: #000;
+  color: #040F0F;
 }
 #main-header #top-menu-nav #top-menu li ul {
-  border-top: 3px solid #728b49;
+  border-top: 3px solid #040F0F;
 }
 #main-header #top-menu-nav #top-menu li.et-reverse-direction-nav li ul {
   right: 300px;
 }
 #main-header #top-menu-nav #top-menu .button-menu a:before {
   content: "";
-  background: #728b49;
+  background: #040F0F;
   z-index: -10;
   height: 12px;
   border-radius: 4px;
@@ -55,7 +55,7 @@ Version:  1.0.2
   height: 4px;
   bottom: 40px;
   left: 0;
-  background-color: #fff;
+  background-color: #FCFFFC;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -93,12 +93,12 @@ Version:  1.0.2
   }
 }
 #main-header #et_search_icon:hover {
-  color: #728b49;
+  color: #040F0F;
 }
 #main-header .nav .mega-menu .sub-menu .sub-menu li a:hover, #main-header .et_mobile_menu li a:hover, #main-header .nav .single-menu .sub-menu li a:hover {
-  background-color: #142d06;
+  background-color: #248232;
   opacity: 1;
-  color: #fff !important;
+  color: #FCFFFC !important;
 }
 #main-header .arrow {
   display: inline-block;
@@ -144,7 +144,7 @@ Version:  1.0.2
   bottom: 20px !important;
 }
 .et-fixed-header #top-menu-nav .single-menu .sub-menu li a, .et-fixed-header #top-menu-nav .mega-menu .sub-menu li a {
-  color: #000 !important;
+  color: #040F0F !important;
 }
 
 .et_header_style_left .logo_container {
@@ -252,10 +252,10 @@ Version:  1.0.2
   line-height: 2.5;
 }
 #top-header #et-secondary-nav .current-menu-item {
-  background-color: #142d06;
+  background-color: #248232;
 }
 #top-header #et-secondary-nav .current-menu-item:hover {
-  background-color: #142d06;
+  background-color: #248232;
 }
 
 body {
@@ -275,14 +275,14 @@ body {
   }
 }
 #footer-bottom {
-  background-color: #142d06;
-  color: #fff;
+  background-color: #248232;
+  color: #FCFFFC;
   font-size: 14px;
   position: relative;
   padding: 120px 0 0px 0;
   width: 100%;
   z-index: 1;
-  border-top: 5px solid #728b49;
+  border-top: 5px solid #040F0F;
 }
 #footer-bottom .container {
   max-width: 1920px;
@@ -366,7 +366,7 @@ body {
   padding: 3px 0;
 }
 #footer-bottom .footer-wrap .footer-col ul li a {
-  color: #fff;
+  color: #FCFFFC;
 }
 #footer-bottom .footer-wrap .footer-col:nth-child(1) {
   flex-basis: 20%;
@@ -386,10 +386,10 @@ body {
   margin-right: 20px;
 }
 #footer-bottom .footer-wrap .footer-col .et-social-icons li a {
-  color: #fff;
+  color: #FCFFFC;
 }
 #footer-bottom .footer-wrap .footer-col .et-social-icons li a:hover {
-  color: #728b49;
+  color: #040F0F;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .validation_error {
   background: rgba(114, 139, 73, 0.2);
@@ -409,7 +409,7 @@ body {
   width: 100%;
   padding: 5px;
   font-size: 14px;
-  color: #142d06;
+  color: #248232;
   font-style: italic;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .validation_message {
@@ -433,7 +433,7 @@ body {
   font-weight: 700;
   text-align: left;
   font-size: 16px;
-  background-color: #728b49;
+  background-color: #040F0F;
   width: 100%;
   padding: 10px;
   /* margin: 0 auto; */
