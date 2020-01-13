@@ -73,13 +73,13 @@ function my_theme_scripts() {
 add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
 
 function sp_breadcrumbs_before() {
-    echo '<div class="trout-crumb">';
+    echo '<div class="trout-crumb"><div class="container-bread">';
     echo '<div class="page-title">';
     wp_title('', true, 'right');
     echo '</div>';
 }
 function sp_breadcrumbs_after() {
-    echo '</div>';
+    echo '</div></div>';
 }
 add_action('seopress_breadcrumbs_before_html', 'sp_breadcrumbs_before');
 add_action('seopress_breadcrumbs_after_html', 'sp_breadcrumbs_after');
