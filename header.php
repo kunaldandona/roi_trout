@@ -366,7 +366,7 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
      */
     echo et_core_intentionally_unescaped( apply_filters( 'et_html_main_header', $main_header ), 'html' );
     ?>
-    <title><?php wp_title('|', true, 'right'); ?></title>
+
     <?php if(function_exists('seopress_display_breadcrumbs')) { seopress_display_breadcrumbs(); } ?>
     <div id="et-main-area">
 <?php
