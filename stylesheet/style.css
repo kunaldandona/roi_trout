@@ -438,7 +438,7 @@ body {
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .validation_error {
   background: rgba(114, 139, 73, 0.2);
   border-radius: 5px;
-  padding: 10px 10px 10px 10px;
+  padding: 0px;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li {
   position: relative;
@@ -447,7 +447,7 @@ body {
   display: none;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .ginput_container {
-  padding: 10px;
+  padding: 0px;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .ginput_container input {
   width: 100%;
@@ -459,10 +459,10 @@ body {
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .validation_message {
   position: absolute;
   top: 0px;
-  padding: 10px;
+  padding: 0px;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_footer {
-  padding: 0 10px 10px 10px;
+  padding: 0;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_footer .gform_button {
   border: none;

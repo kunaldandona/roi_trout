@@ -73,7 +73,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                                 <?php wp_nav_menu( array( 'theme_location' => 'footer_menu' ) ); ?>
                             </div>
                             <div class="footer-col">
-                                <h2>Contact Us</h2>
+                                <h2>Newsletter</h2>
                                 <?php gravity_form( 1, false, false, false, '', true ); ?>
                             </div>
                         </div>
