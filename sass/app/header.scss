@@ -347,6 +347,12 @@
     justify-content: center;
     color: $headerWhite;
 
+    .active {
+      span{
+        color: $forestGreen;
+      }
+    }
+
     li {
       a {
         color: $headerWhite;

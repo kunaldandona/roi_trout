@@ -284,6 +284,9 @@ Version:  1.0.2
   justify-content: center;
   color: #FCFFFC;
 }
+.trout-crumb .breadcrumb .active span {
+  color: #248232;
+}
 .trout-crumb .breadcrumb li a {
   color: #FCFFFC;
   font: zeitung, sans-serif;
