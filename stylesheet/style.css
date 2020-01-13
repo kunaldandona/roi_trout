@@ -272,9 +272,14 @@ Version:  1.0.2
   background-color: #040F0F;
   padding: 30px;
 }
-.trout-crumb .breadcrumb {
+.trout-crumb .container-bread {
   max-width: 1920px;
+  width: 80%;
   margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.trout-crumb .breadcrumb {
   display: flex;
   justify-content: center;
   color: #FCFFFC;
@@ -282,7 +287,7 @@ Version:  1.0.2
 .trout-crumb .breadcrumb li a {
   color: #FCFFFC;
   font: zeitung, sans-serif;
-  font-size: 16px;
+  font-size: 12px;
   text-transform: uppercase;
 }
 
