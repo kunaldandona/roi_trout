@@ -75,7 +75,7 @@ add_action( 'wp_enqueue_scripts', 'my_theme_scripts' );
 function sp_breadcrumbs_before() {
     echo '<div class="trout-crumb">';
     echo '<div class="page-title">';
-    wp_title('|', true, 'right');
+    wp_title('', true, 'right');
     echo '</div>';
 }
 function sp_breadcrumbs_after() {
