@@ -558,10 +558,10 @@ body {
   #main-header .container {
     position: unset;
   }
-  #main-header #et_mobile_nav_menu .opened .mobile_menu_bar:before {
+  #main-header #et_mobile_nav_menu {
     background: #040F0F;
   }
-  #main-header #et_mobile_nav_menu .opened #mobile_menu {
+  #main-header #et_mobile_nav_menu .opened .mobile_menu_bar:before {
     background: #040F0F;
   }
   #main-header #et_mobile_nav_menu .opened #mobile_menu .sub-menu {
