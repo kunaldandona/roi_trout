@@ -93,9 +93,11 @@ $desktopSize: 1420px;
     .container {
       position: unset;
     }
-
-    #et_mobile_nav_menu{
+    #et_mobile_menu {
       background: $secondBlack;
+    }
+    #et_mobile_nav_menu{
+
       .opened {
 
         .mobile_menu_bar{
