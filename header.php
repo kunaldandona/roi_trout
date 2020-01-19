@@ -192,7 +192,7 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
 
             <div class="et_pb_fullscreen_nav_container">
                 <?php
-                $slide_nav = '';
+                $slide_nav = 'nav';
                 $slide_menu_class = 'et_mobile_menu';
 
                 $slide_nav = wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => 'div', 'container_class' => 'primary-trout', 'fallback_cb' => '', 'echo' => false, 'items_wrap' => '%3$s',  ) );
@@ -326,12 +326,6 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
 
                 <?php if ( $et_slide_header || is_customize_preview() ) : ?>
                     <div class="mobile_menu_bar nav-icon et_pb_header_toggle et_toggle_<?php echo esc_attr( et_get_option( 'header_style', 'left' ) ); ?>_menu">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                        <span></span>
                     </div>
                 <?php endif; ?>
 
