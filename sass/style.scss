@@ -37,6 +37,15 @@ $desktopSize: 1420px;
     position: absolute;
     right: -100%;
   }
+
+  .second-mob {
+    position: absolute;
+    bottom: 0;
+
+    li a {
+      border-bottom: none;
+    }
+  }
 }
 
 @media screen and  (max-width: $desktopSize){

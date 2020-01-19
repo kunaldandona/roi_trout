@@ -503,6 +503,13 @@ body {
   position: absolute;
   right: -100%;
 }
+#mobile_menu .second-mob {
+  position: absolute;
+  bottom: 0;
+}
+#mobile_menu .second-mob li a {
+  border-bottom: none;
+}
 
 @media screen and (max-width: 1420px) {
   .nav-icon {
