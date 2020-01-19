@@ -40,10 +40,23 @@ $desktopSize: 1420px;
 
   .second-mob {
     position: absolute;
-    bottom: 0;
+    bottom: 30px;
+    width: 100%;
 
     li a {
       border-bottom: none;
+      padding: 10px 5px 5px 15px;
+      position: relative;
+      margin-bottom: 6px;
+
+      &:before {
+        position: absolute;
+        content: "";
+        height: 4px;
+        background: white;
+        width: 60px;
+        bottom: 0;
+      }
     }
   }
 }
