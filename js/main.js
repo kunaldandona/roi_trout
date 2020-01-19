@@ -83,7 +83,7 @@ jQuery(document).ready(function ($) {
         lastScrollTop = st;
     }
 
-    setInterval(function() {
+    var checkExist = setInterval(function() {
         if ($( "#mobile_menu" ).length > 0) {
             console.log("Exists!");
             $('#mobile_menu .single-menu, #mobile_menu .mega-menu').wrapAll('<div>','</div>');
