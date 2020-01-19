@@ -83,9 +83,6 @@ jQuery(document).ready(function ($) {
         lastScrollTop = st;
     }
 
-    $('#mobile_menu').remove();
-
-
 
 
 
