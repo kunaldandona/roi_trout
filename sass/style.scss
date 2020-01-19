@@ -44,5 +44,19 @@ $desktopSize: 1420px;
     }
   }
 
+
+
+
+  #top-header{
+    #et-info {
+      display: flex;
+      justify-content: space-between;
+
+      .et-social-icons{
+        display: inline-block;
+      }
+    }
+  }
+
 }
 

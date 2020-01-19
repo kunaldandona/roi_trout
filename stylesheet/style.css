@@ -515,6 +515,14 @@ body {
   .et_header_style_left #et-top-navigation .mobile_menu_bar:before {
     color: #FCFFFC;
   }
+
+  #top-header #et-info {
+    display: flex;
+    justify-content: space-between;
+  }
+  #top-header #et-info .et-social-icons {
+    display: inline-block;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
