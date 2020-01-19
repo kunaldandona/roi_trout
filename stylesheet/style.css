@@ -581,7 +581,6 @@ body {
     background: transparent;
     font-weight: 300;
     text-transform: uppercase;
-    text-align: right;
     border-bottom: 1px solid #f7f7f7;
     padding: 5%;
   }
@@ -592,7 +591,7 @@ body {
     font-style: normal;
     font-variant: normal;
     margin-left: 10px;
-    color: #040F0F;
+    color: #FCFFFC;
   }
   #main-header #et_mobile_nav_menu .opened .mobile_menu_bar:before {
     background: #040F0F;
