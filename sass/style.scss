@@ -32,6 +32,13 @@ body {
 
 $desktopSize: 1420px;
 
+#mobile_menu{
+  .sub-menu{
+    position: absolute;
+    right: -100%;
+  }
+}
+
 @media screen and  (max-width: $desktopSize){
 
   .nav-icon {

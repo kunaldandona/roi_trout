@@ -499,6 +499,11 @@ body {
   transition: all 0.3s ease-in;
 }
 
+#mobile_menu .sub-menu {
+  position: absolute;
+  right: -100%;
+}
+
 @media screen and (max-width: 1420px) {
   .nav-icon {
     width: 60px;
