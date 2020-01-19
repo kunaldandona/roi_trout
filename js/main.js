@@ -1,9 +1,14 @@
 jQuery(document).ready(function ($) {
 
 
+    if($('#mobile_menu').length > 0){
+        console.log('Here');
+    } else {
+        console.log('Here 111');
+    }
     $('#mobile_menu .single-menu, #mobile_menu .mega-menu').wrapAll('<div class="primary-trout"></div>');
     $('#mobile_menu .second').wrapAll('<div class="second-trout"></div>');
-    console.log('Here');
+
 
     var headTop = $('header').height() + $('#top-header').height();
 
