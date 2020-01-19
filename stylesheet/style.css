@@ -491,6 +491,10 @@ body {
   width: 90%;
 }
 
+#top-menu > li:last-child {
+  padding-right: 15px;
+}
+
 @media screen and (max-width: 1420px) {
   #logo {
     max-height: 40%;
