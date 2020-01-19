@@ -84,7 +84,7 @@ jQuery(document).ready(function ($) {
     }
 
     var checkExist = setInterval(function() {
-        if ($( "#mobile_menu" ).length > 0) {
+        if ($("#mobile_menu" ).length === 1) {
             console.log("Exists!");
             $('#mobile_menu .single-menu, #mobile_menu .mega-menu').wrapAll('<div>','</div>');
             clearInterval(checkExist);
