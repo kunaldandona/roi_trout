@@ -128,7 +128,14 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
         <?php ob_start(); ?>
         <div class="et_slide_in_menu_container">
             <?php if ( 'fullscreen' === et_get_option( 'header_style', 'left' ) || is_customize_preview() ) { ?>
-                <span class="mobile_menu_bar et_toggle_fullscreen_menu"></span>
+                <div class="mobile_menu_bar nav-icon et_toggle_fullscreen_menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                </div>
             <?php } ?>
 
             <?php
