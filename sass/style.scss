@@ -22,7 +22,7 @@ body {
 
 $desktopSize: 1420px;
 
-@media (max-width: $desktopSize){
+@media screen and  (max-width: $desktopSize){
   #logo {
     max-height: 35%;
   }
