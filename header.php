@@ -318,7 +318,14 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
                 ?>
 
                 <?php if ( $et_slide_header || is_customize_preview() ) : ?>
-                    <span class="mobile_menu_bar et_pb_header_toggle et_toggle_<?php echo esc_attr( et_get_option( 'header_style', 'left' ) ); ?>_menu"></span>
+                    <div class="mobile_menu_bar nav-icon2 et_pb_header_toggle et_toggle_<?php echo esc_attr( et_get_option( 'header_style', 'left' ) ); ?>_menu">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
                 <?php endif; ?>
 
                 <?php if ( ( false !== et_get_option( 'show_search_icon', true ) && ! $et_slide_header ) || is_customize_preview() ) : ?>

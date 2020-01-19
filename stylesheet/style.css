@@ -496,6 +496,25 @@ body {
 }
 
 @media screen and (max-width: 1420px) {
+  .nav-icon {
+    width: 60px;
+    height: 45px;
+    position: relative;
+    margin: 50px auto;
+    transition: 0.5s ease-in-out;
+    cursor: pointer;
+  }
+  .nav-icon span {
+    display: block;
+    position: absolute;
+    height: 9px;
+    width: 50%;
+    background: #d3531a;
+    opacity: 1;
+    transform: rotate(0deg);
+    transition: 0.25s ease-in-out;
+  }
+
   #logo {
     max-height: 40%;
   }
@@ -534,6 +553,13 @@ body {
   }
   #top-header #et-info .et-social-icons {
     display: inline-block;
+  }
+
+  #main-header .container {
+    position: unset;
+  }
+  #main-header .et_mobile_nav_menu .opened .mobile_menu_bar:before {
+    background: #040F0F;
   }
 }
 
