@@ -85,4 +85,12 @@ jQuery(document).ready(function ($) {
     $( "#mobile_menu" ).load(function() {
        console.log('hey');
     });
+
+    setInterval(function() {
+        if ($( "#mobile_menu" ).length) {
+            console.log("Exists!");
+            $('#mobile_menu .single-menu, #mobile_menu .mega-menu').wrapAll('<div>','</div>');
+            clearInterval(checkExist);
+        }
+    }, 500);
 });
