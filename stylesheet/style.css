@@ -612,7 +612,7 @@ body {
 }
 
 .active-sub-menu {
-  transform: translateX(0) scale(1);
+  transform: translateX(0) scale(1) !important;
 }
 
 #mobile_menu .second-mob {
