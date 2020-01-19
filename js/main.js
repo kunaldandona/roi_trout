@@ -82,10 +82,4 @@ jQuery(document).ready(function ($) {
 
         lastScrollTop = st;
     }
-
-
-
-
-
-
 });
