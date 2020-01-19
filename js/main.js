@@ -83,5 +83,7 @@ jQuery(document).ready(function ($) {
         lastScrollTop = st;
     }
 
+    et_duplicate_menu( $('#et-top-navigation ul.nav'), $('#et-top-navigation .mobile_nav'), 'mobile_menu', 'et_mobile_menu' );
+    et_duplicate_menu( '', $('.et_pb_fullscreen_nav_container'), 'mobile_menu_slide', 'et_mobile_menu', 'no_click_event' );
 
 });

@@ -192,7 +192,7 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
 
             <div class="et_pb_fullscreen_nav_container">
                 <?php
-                $slide_nav = 'nav';
+                $slide_nav = '';
                 $slide_menu_class = 'et_mobile_menu';
 
                 $slide_nav = wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => 'div', 'container_class' => 'primary-trout', 'fallback_cb' => '', 'echo' => false, 'items_wrap' => '%3$s',  ) );
