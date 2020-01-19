@@ -24,6 +24,12 @@ body {
   padding-right: 15px;
 }
 
+.mobile_menu_bar{
+  &:before{
+    transition: all 0.3s ease-in;
+  }
+}
+
 $desktopSize: 1420px;
 
 @media screen and  (max-width: $desktopSize){
@@ -69,7 +75,6 @@ $desktopSize: 1420px;
     }
   }
 
-
   body.et_fixed_nav.et_secondary_nav_two_panels #main-header, body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_two_panels #main-header{
     top: 30px;
   }
@@ -93,9 +98,11 @@ $desktopSize: 1420px;
     .container {
       position: unset;
     }
-    #et_mobile_menu {
+
+    .et_mobile_menu {
       background: $secondBlack;
     }
+
     #et_mobile_nav_menu{
 
       .opened {
