@@ -160,6 +160,20 @@ $desktopSize: 1420px;
         }
 
       }
+
+
+      #mobile_menu {
+        li {
+          .sub-menu {
+            height: 100vh;
+            left: 0;
+            background: saddlebrown;
+            top: 0;
+            transform: translateX(100%) scale(1);
+            transition: all 0.5s linear;
+          }
+        }
+      }
     }
   }
 
