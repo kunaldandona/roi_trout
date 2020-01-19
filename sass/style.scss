@@ -115,6 +115,8 @@ $desktopSize: 1420px;
       right: 0;
       z-index: 1;
       left: unset;
+      display: flex;
+      flex-direction: column;
 
       li {
         a{
@@ -138,6 +140,10 @@ $desktopSize: 1420px;
          }
         }
       }
+    }
+
+    .second-mob {
+      margin-top: 20%;
     }
 
     #et_mobile_nav_menu{
