@@ -100,7 +100,8 @@ if ( ! function_exists( 'et_divi_get_top_nav_items' ) ) {
 
         $items->secondary_nav = wp_nav_menu( array(
             'theme_location' => 'secondary-menu',
-            'container'      => '',
+            'container'      => 'div',
+            'container_class' => 'second-trout',
             'fallback_cb'    => '',
             'menu_id'        => 'et-secondary-nav',
             'echo'           => false,
