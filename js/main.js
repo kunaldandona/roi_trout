@@ -1,5 +1,10 @@
 jQuery(document).ready(function ($) {
 
+
+    $('#mobile_menu .single-menu, #mobile_menu .mega-menu').wrapAll('<div class="primary-trout"></div>');
+    $('#mobile_menu .second').wrapAll('<div class="second-trout"></div>');
+    console.log('Here');
+
     var headTop = $('header').height() + $('#top-header').height();
 
     $.adjustHeader = function () {
@@ -83,8 +88,7 @@ jQuery(document).ready(function ($) {
         lastScrollTop = st;
     }
 
-    $('#mobile_menu .single-menu, #mobile_menu .mega-menu').wrapAll('<div class="primary-trout"></div>');
-    $('#mobile_menu .second').wrapAll('<div class="second-trout"></div>');
+
 
 
 
