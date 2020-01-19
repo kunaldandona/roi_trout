@@ -1,0 +1,222 @@
+@keyframes gradientBG {
+  0% {
+
+    background-position: 0% 50%;
+  }
+  50% {
+
+    background-position: 100% 50%;
+  }
+  100% {
+
+    background-position: 0% 50%;
+  }
+}
+
+#footer-bottom {
+  background-color: $forestGreen;
+  color: $footerWhite;
+  font-size: 14px;
+  position: relative;
+  padding: 120px 0 0px 0;
+  width: 100%;
+  z-index: 1;
+  border-top: 5px solid $secondBlack;
+
+  .container{
+    max-width: 1920px;
+  }
+
+  .et-social-icons {
+    float: none;
+  }
+  #footer-info{
+    display: flex;
+    color: $footerWhite;
+    border-top: 2px solid $footerWhite;
+    width: 100%;
+    margin-top: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-family: $font2;
+    font-size: 14px;
+    text-transform: uppercase;
+    a{
+      color: white;
+    }
+    .roi-credit{
+      color: white;
+      font-style: normal;
+      letter-spacing: 0;
+      font-weight: 900;
+      padding: 0 5px;
+      font-size: 16px;
+      opacity: 1;
+      text-shadow: 2px 2px $secondBlack;
+      position: relative;
+
+
+
+      &:before{
+        content: "";
+        position: absolute;
+        height: 5px;
+        bottom: 0;
+        background: $footerCreditLight;
+        width: 80%;
+      }
+
+      &:hover{
+        &:before{
+          background: linear-gradient(-45deg, #728b49, #1741a0, #23a6d5, #23d5ab);
+          background-size: 400% 400%;
+          animation: gradientBG 3s ease infinite;
+        }
+      }
+    }
+  }
+
+  .footer-wrap{
+    display: flex;
+    justify-content: space-between;
+
+    .footer-col{
+      flex: 0 1 15%;
+      margin-right: 5%;
+      position: relative;
+
+      a {
+        &:hover{
+          color: $secondBlack;
+        }
+      }
+
+      h2{
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 100;
+        color: $footerWhite;
+        padding-bottom: 40px;
+        line-height: 2.5;
+
+        &:before{
+          content: "";
+          position: absolute;
+          width: 60%;
+          height: 4px;
+          left: 0;
+          top: 40px;
+          background-color: $footerWhite;
+          visibility: visible;
+          transform: scaleX(1);
+          transition: all 0.3s ease-in-out 0s;
+        }
+        &:hover{
+          &:before{
+            width: 80%;
+          }
+        }
+      }
+
+      ul{
+        li{
+          padding: 3px 0;
+          a{
+            color: $footerWhite;
+          }
+        }
+      }
+
+      &:nth-child(1){
+        flex-basis: 20%;
+        p{
+          padding-bottom: 30px;
+        }
+      }
+      &:nth-child(5){
+        margin-right: 0;
+      }
+
+      .footer-logo{
+        max-width: 200px;
+        padding-bottom: 40px;
+      }
+
+      .et-social-icons{
+        li{
+          margin: .0em;
+          margin-right: 20px;
+          a{
+            color: $footerWhite;
+            &:hover{
+              color: $secondBlack;
+            }
+          }
+        }
+      }
+
+      .footer-sub_wrapper{
+
+        .validation_error{
+          background: rgba(114, 139, 73,0.2);
+          border-radius: 5px;
+          padding: 0px;
+        }
+        .gform_body{
+          ul {
+            li {
+              position: relative;
+              label{
+                display: none;
+              }
+              .ginput_container{
+                padding: 0px;
+                input{
+                  width: 100%;
+                  padding: 5px;
+                  font-size: 14px;
+                  color: $forestGreen;
+                }
+              }
+              .validation_message{
+                position: absolute;
+                top: 0px;
+                padding: 0px;
+              }
+            }
+          }
+        }
+
+        .gform_footer{
+          padding: 0;
+
+          .gform_button{
+            border: none;
+            display: block;
+            text-align: center;
+            cursor: pointer;
+            text-transform: uppercase;
+            outline: none;
+            overflow: hidden;
+            position: relative;
+            color: #fff;
+            font-weight: 700;
+            text-align: left;
+            font-size: 16px;
+            background-color: $secondBlack;
+            width: 100%;
+            padding: 10px;
+            /* margin: 0 auto; */
+            box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+            transition: all 0.4s ease-out;
+
+            &:hover{
+              background-color: $secondBlack;
+            }
+          }
+        }
+      }
+    }
+  }
+}

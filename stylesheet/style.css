@@ -299,11 +299,6 @@ Version:  1.0.2
   text-transform: uppercase;
 }
 
-body {
-  font-family: zeitung, sans-serif;
-  font-weight: 300;
-}
-
 @keyframes gradientBG {
   0% {
     background-position: 0% 50%;
@@ -485,6 +480,33 @@ body {
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_footer .gform_button:hover {
   background-color: #040F0F;
+}
+
+body {
+  font-family: zeitung, sans-serif;
+  font-weight: 300;
+}
+
+.container {
+  width: 90%;
+}
+
+@media (max-width: 1420px) {
+  #logo {
+    max-height: 35%;
+  }
+
+  #main-header #et-top-navigation {
+    padding-top: 10px;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  #et_top_search {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

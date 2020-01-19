@@ -28,7 +28,7 @@
         }
 
         ul{
-          border-top: 3px solid $oliveGreen;
+          border-top: 3px solid $secondBlack;
         }
         .single-menu{
           .sub-menu .sub-menu {
@@ -45,7 +45,7 @@
         a{
           &:before{
             content: "";
-            background: $oliveGreen;
+            background: $secondBlack;
             z-index: -10;
             height: 12px;
             border-radius: 4px;
@@ -131,7 +131,7 @@
 
 
     &:hover{
-      color: $oliveGreen;
+      color: $secondBlack;
     }
   }
 
@@ -214,7 +214,7 @@
 }
 
 #top-header, #et-secondary-nav li ul {
-  background-color: $oliveGreen;
+  background-color: $secondBlack;
 }
 
 #network_nav {
@@ -249,7 +249,7 @@
         justify-content: center;
         transition: all 0.4s ease-in-out;
         &:hover{
-          background-color: $oliveGreen;
+          background-color: $secondBlack;
           .trout-site span{
             border-bottom: 5px solid $headerWhite;
           }
@@ -331,7 +331,7 @@
 }
 
 .trout-crumb {
-  background-color: $oliveGreen;
+  background-color: $secondBlack;
   padding: 40px 0;
 
   .container-bread {
