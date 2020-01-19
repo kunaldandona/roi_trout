@@ -163,8 +163,8 @@ $desktopSize: 1420px;
 
 
       #mobile_menu {
-        li {
-          .sub-menu {
+        & > li {
+          & >.sub-menu {
             height: 100vh;
             left: 0;
             background: saddlebrown;

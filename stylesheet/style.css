@@ -600,7 +600,7 @@ body {
     position: absolute;
     right: -100%;
   }
-  #main-header #et_mobile_nav_menu #mobile_menu li .sub-menu {
+  #main-header #et_mobile_nav_menu #mobile_menu > li > .sub-menu {
     height: 100vh;
     left: 0;
     background: saddlebrown;
