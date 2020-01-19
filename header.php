@@ -195,8 +195,8 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
                 $slide_nav = '';
                 $slide_menu_class = 'et_mobile_menu';
 
-                $slide_nav = wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => '', 'fallback_cb' => '', 'echo' => false, 'items_wrap' => '%3$s' ) );
-                $slide_nav .= wp_nav_menu( array( 'theme_location' => 'secondary-menu', 'container' => '', 'fallback_cb' => '', 'echo' => false, 'items_wrap' => '%3$s' ) );
+                $slide_nav = wp_nav_menu( array( 'theme_location' => 'primary-menu', 'container' => 'div', 'container_class' => 'primary-trout', 'fallback_cb' => '', 'echo' => false, 'items_wrap' => '%3$s',  ) );
+                $slide_nav .= wp_nav_menu( array( 'theme_location' => 'secondary-menu', 'container' => 'div', 'container_class' => 'second-trout', 'fallback_cb' => '', 'echo' => false, 'items_wrap' => '%3$s' ) );
                 ?>
 
                 <ul id="mobile_menu_slide" class="<?php echo esc_attr( $slide_menu_class ); ?>">
