@@ -84,35 +84,4 @@ function sp_breadcrumbs_after() {
 add_action('seopress_breadcrumbs_before_html', 'sp_breadcrumbs_before');
 add_action('seopress_breadcrumbs_after_html', 'sp_breadcrumbs_after');
 
-
-
-if ( ! function_exists( 'et_divi_get_top_nav_items' ) ) {
-    function et_divi_get_top_nav_items() {
-        $items = new stdClass;
-
-        $items->phone_number = et_get_option( 'phone_number' );
-
-        $items->email = et_get_option( 'header_email' );
-
-        $items->contact_info_defined = $items->phone_number || $items->email;
-
-        $items->show_header_social_icons = et_get_option( 'show_header_social_icons', false );
-
-        $items->secondary_nav = wp_nav_menu( array(
-            'theme_location' => 'secondary-menu',
-            'container'      => 'div',
-            'container_class' => 'second-trout',
-            'fallback_cb'    => '',
-            'menu_id'        => 'et-secondary-nav',
-            'echo'           => false,
-        ) );
-
-        $items->top_info_defined = $items->contact_info_defined || $items->show_header_social_icons || $items->secondary_nav;
-
-        $items->two_info_panels = $items->contact_info_defined && ( $items->show_header_social_icons || $items->secondary_nav );
-
-        return $items;
-    }
-}
-
 ?>
