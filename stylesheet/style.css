@@ -501,11 +501,11 @@ body {
   }
 
   .arrow {
-    display: none;
+    display: none !important;
   }
 
   #et_top_search {
-    display: none;
+    display: none !important;
   }
 }
 

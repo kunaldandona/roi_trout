@@ -30,10 +30,10 @@ $desktopSize: 1420px;
     padding-top: 10px;
   }
   .arrow {
-    display: none;
+    display: none !important;
   }
   #et_top_search {
-    display: none;
+    display: none !important;
   }
 }
 
