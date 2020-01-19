@@ -96,11 +96,21 @@ $desktopSize: 1420px;
 
     .et_mobile_nav_menu{
       .opened {
+
         .mobile_menu_bar{
           &:before{
             background: $headerBlack;
           }
         }
+
+        #mobile_menu{
+          background: $secondBlack;
+          .sub-menu{
+            position: absolute;
+            right: -100%;
+          }
+        }
+
       }
     }
   }

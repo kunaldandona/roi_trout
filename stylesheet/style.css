@@ -561,6 +561,13 @@ body {
   #main-header .et_mobile_nav_menu .opened .mobile_menu_bar:before {
     background: #040F0F;
   }
+  #main-header .et_mobile_nav_menu .opened #mobile_menu {
+    background: #040F0F;
+  }
+  #main-header .et_mobile_nav_menu .opened #mobile_menu .sub-menu {
+    position: absolute;
+    right: -100%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
