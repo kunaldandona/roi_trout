@@ -1,13 +1,11 @@
 jQuery(document).ready(function ($) {
 
 
-    if($('#mobile_menu').length > 0){
-        console.log('Here');
-    } else {
-        console.log('Here 111');
+    while($('#mobile_menu').length > 0){
+        $('#mobile_menu .single-menu, #mobile_menu .mega-menu').wrapAll('<div class="primary-trout"></div>');
+        $('#mobile_menu .second').wrapAll('<div class="second-trout"></div>');
     }
-    $('#mobile_menu .single-menu, #mobile_menu .mega-menu').wrapAll('<div class="primary-trout"></div>');
-    $('#mobile_menu .second').wrapAll('<div class="second-trout"></div>');
+
 
 
     var headTop = $('header').height() + $('#top-header').height();
