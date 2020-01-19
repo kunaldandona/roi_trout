@@ -507,6 +507,14 @@ body {
   #et_top_search {
     display: none !important;
   }
+
+  .mobile_menu_bar {
+    padding-bottom: 16px;
+    padding-top: 7px;
+  }
+  .mobile_menu_bar:before {
+    color: #FCFFFC;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

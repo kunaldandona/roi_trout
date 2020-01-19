@@ -35,5 +35,14 @@ $desktopSize: 1420px;
   #et_top_search {
     display: none !important;
   }
+
+  .mobile_menu_bar {
+    padding-bottom: 16px;
+    padding-top: 7px;
+
+    &:before{
+      color: $headerWhite;
+    }
+  }
 }
 
