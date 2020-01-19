@@ -524,6 +524,10 @@ body {
     top: 30px;
   }
 
+  #network_nav {
+    display: none;
+  }
+
   #top-header #et-info {
     display: flex;
     justify-content: space-between;
