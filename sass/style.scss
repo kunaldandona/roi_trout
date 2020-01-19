@@ -45,6 +45,9 @@ $desktopSize: 1420px;
   }
 
 
+  body.et_fixed_nav.et_secondary_nav_two_panels #main-header, body.et_non_fixed_nav.et_transparent_nav.et_secondary_nav_two_panels #main-header{
+    top: 30px;
+  }
 
 
   #top-header{
