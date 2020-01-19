@@ -528,6 +528,10 @@ body {
     max-height: 40%;
   }
 
+  .et_mobile_menu li li {
+    padding: 0;
+  }
+
   #main-header #et-top-navigation {
     padding-top: 10px;
   }
@@ -582,7 +586,7 @@ body {
     font-weight: 300;
     text-transform: uppercase;
     border-bottom: 1px solid #f7f7f7;
-    padding: 5%;
+    padding: 15px;
   }
   #main-header .et_mobile_menu .menu-item-has-children a:after {
     content: "a";
@@ -603,7 +607,7 @@ body {
   #main-header #et_mobile_nav_menu #mobile_menu > li > .sub-menu {
     height: 100vh;
     left: 0;
-    background: saddlebrown;
+    background: #248232;
     top: 0;
     transform: translateX(100%) scale(1);
     transition: all 0.5s linear;

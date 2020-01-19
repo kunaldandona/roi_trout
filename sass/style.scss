@@ -64,6 +64,11 @@ $desktopSize: 1420px;
   #logo {
     max-height: 40%;
   }
+
+  .et_mobile_menu li li {
+    padding: 0;
+  }
+
   #main-header #et-top-navigation {
     padding-top: 10px;
   }
@@ -122,7 +127,7 @@ $desktopSize: 1420px;
           font-weight: 300;
           text-transform: uppercase;
           border-bottom: 1px solid rgb(247, 247, 247);
-          padding: 5%;
+          padding: 15px;
         }
       }
       .menu-item-has-children {
@@ -167,7 +172,7 @@ $desktopSize: 1420px;
           & >.sub-menu {
             height: 100vh;
             left: 0;
-            background: saddlebrown;
+            background: $forestGreen;
             top: 0;
             transform: translateX(100%) scale(1);
             transition: all 0.5s linear;
