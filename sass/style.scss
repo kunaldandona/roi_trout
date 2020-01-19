@@ -157,39 +157,36 @@ $desktopSize: 1420px;
             position: absolute;
             width: 100%;
             background: black;
-            transform: translateX(100%) scale(0.98);
+            transform: translateX(100%);
             top: 0;
             height: 100vh;
             z-index: 12;
             padding-left: 0;
+            transition: all 0.3s ease-out;
           }
           }
         }
 
-      }
-
-
-      #mobile_menu {
-        & > li {
-          & >.sub-menu {
-            height: 100vh;
-            left: 0;
-            background: $forestGreen;
-            top: 0;
-            transform: translateX(100%) scale(1);
-            transition: all 0.5s linear;
-          }
-        }
       }
     }
   }
 
+.active-sub-menu{
+  transform: translateX(0) scale(1);
+}
 
 
 #mobile_menu{
-  .sub-menu{
-    position: absolute;
-  }
+  //.sub-menu{
+  //  position: absolute;
+  //  width: 100%;
+  //  background: black;
+  //  transform: translateX(100%) scale(0.98);
+  //  top: 0;
+  //  height: 100vh;
+  //  z-index: 12;
+  //  padding-left: 0;
+  //}
 
   .second-mob {
     position: absolute;
