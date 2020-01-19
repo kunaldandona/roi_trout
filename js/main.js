@@ -83,6 +83,9 @@ jQuery(document).ready(function ($) {
         lastScrollTop = st;
     }
 
+    $('#mobile_menu .single-menu, #mobile_menu .mega-menu').wrapAll('<div class="primary-trout"></div>');
+    $('#mobile_menu .second').wrapAll('<div class="second-trout"></div>');
+
 
 
 
