@@ -568,7 +568,31 @@ body {
     position: unset;
   }
   #main-header .et_mobile_menu {
-    background: #040F0F;
+    background: #248232;
+    padding: 0%;
+    border-top: 3px solid #f7f7f7;
+    height: calc(100vh - 95px);
+    width: 100%;
+    right: 0;
+    z-index: 1;
+    left: unset;
+  }
+  #main-header .et_mobile_menu li a {
+    background: transparent;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: right;
+    border-bottom: 1px solid #f7f7f7;
+    padding: 5%;
+  }
+  #main-header .et_mobile_menu .menu-item-has-children a:after {
+    content: "a";
+    font-family: ETmodules !important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    margin-left: 10px;
+    color: #040F0F;
   }
   #main-header #et_mobile_nav_menu .opened .mobile_menu_bar:before {
     background: #040F0F;

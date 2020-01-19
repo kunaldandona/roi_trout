@@ -84,4 +84,16 @@ function sp_breadcrumbs_after() {
 add_action('seopress_breadcrumbs_before_html', 'sp_breadcrumbs_before');
 add_action('seopress_breadcrumbs_after_html', 'sp_breadcrumbs_after');
 
-?>
+
+function et_add_mobile_navigation(){
+    printf(
+        '<div id="et_mobile_nav_menu">
+			<a href="#" class="mobile_nav closed">
+				<span class="select_page">%1$s</span>
+				<span class="mobile_menu_bar"></span>
+			</a>
+		</div>',
+        esc_html__( 'Select Page', 'Divi' )
+    );
+}
+add_action( 'et_header_top', 'et_add_mobile_navigation' );
