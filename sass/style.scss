@@ -32,34 +32,7 @@ body {
 
 $desktopSize: 1420px;
 
-#mobile_menu{
-  .sub-menu{
-    position: absolute;
-    right: -100%;
-  }
 
-  .second-mob {
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-
-    li a {
-      border-bottom: none;
-      padding: 10px 5px 5px 15px;
-      position: relative;
-      margin-bottom: 6px;
-
-      &:before {
-        position: absolute;
-        content: "";
-        height: 4px;
-        background: white;
-        width: 60px;
-        bottom: 0;
-      }
-    }
-  }
-}
 
 @media screen and  (max-width: $desktopSize){
 
@@ -204,5 +177,34 @@ $desktopSize: 1420px;
     }
   }
 
+}
+
+#mobile_menu{
+  .sub-menu{
+    position: absolute;
+    right: -100%;
+  }
+
+  .second-mob {
+    position: absolute;
+    bottom: 30px;
+    width: 100%;
+
+    li a {
+      border-bottom: none;
+      padding: 10px 5px 5px 15px;
+      position: relative;
+      margin-bottom: 6px;
+
+      &:before {
+        position: absolute;
+        content: "";
+        height: 4px;
+        background: white;
+        width: 60px;
+        bottom: 0;
+      }
+    }
+  }
 }
 
