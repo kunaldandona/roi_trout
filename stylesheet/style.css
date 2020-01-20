@@ -299,6 +299,24 @@ Version:  1.0.2
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 1420px) {
+  .trout-crumb .breadcrumb {
+    display: flex;
+    justify-content: flex-start;
+    color: #FCFFFC;
+    border-top: 1px solid white;
+    margin-top: 15px;
+  }
+
+  .trout-crumb .container-bread {
+    max-width: 1920px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
 @keyframes gradientBG {
   0% {
     background-position: 0% 50%;
