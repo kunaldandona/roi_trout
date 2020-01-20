@@ -575,8 +575,6 @@ body {
     right: 0;
     z-index: 1;
     left: unset;
-    display: flex;
-    flex-direction: column;
   }
   #main-header .et_mobile_menu li a {
     background: transparent;
