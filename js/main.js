@@ -87,14 +87,15 @@ jQuery(document).ready(function ($) {
         if ($(".et_mobile_menu" ).length === 1) {
             $('.et_mobile_menu .single-menu, .et_mobile_menu .mega-menu').wrapAll('<div class="primary-mob">','</div>');
             $('.et_mobile_menu .second').wrapAll('<div class="second-mob">','</div>');
+            $( "#mobile_menu .menu-item-has-children a" ).unbind();
+            $( "#mobile_menu .menu-item-has-children a" ).click((e) => {
+                e.preventDefault();
+            });
             clearInterval(checkExist);
         }
     }, 500);
 
-    $( "#mobile_menu .menu-item-has-children a" ).unbind();
-    $( "#mobile_menu .menu-item-has-children a" ).click((e) => {
-        e.preventDefault();
-    });
+
 
 
 });
