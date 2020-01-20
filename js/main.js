@@ -96,13 +96,11 @@ jQuery(document).ready(function ($) {
         $('.active-sub-menu').removeClass('active-sub-menu');
     });
 
-    $( "#mobile_menu .menu-item-has-children a" ).click((e) => {
-        e.preventDefault();
         $( "#mobile_menu .menu-item-has-children a" ).click((e) => {
             e.preventDefault();
             $('#mobile_menu .menu-item-has-children > .sub-menu').toggleClass("active-sub-menu");
         });
-    });
+
 
 
 
