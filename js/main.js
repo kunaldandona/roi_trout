@@ -100,7 +100,7 @@ jQuery(document).ready(function ($) {
     }, 500);
 
     $('.mobile_menu_bar').click(() => {
-        $('active-sub-menu').removeClass('active-sub-menu');
+        $('.active-sub-menu').removeClass('active-sub-menu');
     });
 
 
