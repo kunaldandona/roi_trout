@@ -221,13 +221,16 @@
   }
 }
 
-@media screen and  (max-width: $desktopSize){
+#footer-bottom .footer-wrap .footer-col:nth-child(1)
+
+@media screen and  (max-width: $desktopSize) {
 
   #footer-bottom {
     padding: 60px 0 0px 0;
-  }
-  .footer-wrap{
+
+  .footer-wrap {
     flex-wrap: wrap;
+
     .footer-col {
       &:nth-child(1) {
         flex-basis: 100%;
@@ -269,4 +272,6 @@
 
     }
   }
+
+}
 }
