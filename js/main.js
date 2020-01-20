@@ -90,4 +90,11 @@ jQuery(document).ready(function ($) {
             clearInterval(checkExist);
         }
     }, 500);
+
+    $( "#mobile_menu .menu-item-has-children a" ).unbind();
+    $( "#mobile_menu .menu-item-has-children a" ).click((e) => {
+        e.preventDefault();
+    });
+
+
 });
