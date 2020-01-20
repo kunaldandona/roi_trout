@@ -220,3 +220,53 @@
     }
   }
 }
+
+@media screen and  (max-width: $desktopSize){
+
+  #footer-bottom {
+    padding: 60px 0 0px 0;
+  }
+  .footer-wrap{
+    flex-wrap: wrap;
+    .footer-col {
+      &:nth-child(1) {
+        flex-basis: 100%;
+        margin: 0;
+        order: 0;
+        padding-bottom: 20px;
+        border-bottom: 1px solid #040f0f;
+        margin-bottom: 20px;
+
+        .et-social-icons {
+          text-align: left;
+        }
+      }
+
+      &:nth-child(2) {
+        flex-basis: 50%;
+        order: 1;
+      }
+
+      &:nth-child(3) {
+        order: 3;
+        flex-basis: 100%;
+        margin: 0;
+        margin-top: 40px;
+      }
+
+      &:nth-child(4) {
+        order: 2;
+        flex-basis: 40%;
+        margin: 0;
+      }
+
+      &:nth-child(5) {
+        order: 4;
+        flex-basis: 100%;
+        margin: 0;
+        margin-top: 40px;
+      }
+
+    }
+  }
+}
