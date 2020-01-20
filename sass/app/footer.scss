@@ -31,7 +31,6 @@
     float: none;
   }
   #footer-info{
-    display: flex;
     color: $footerWhite;
     border-top: 2px solid $footerWhite;
     width: 100%;
@@ -42,6 +41,8 @@
     font-family: $font2;
     font-size: 14px;
     text-transform: uppercase;
+    float: none;
+    text-align: center;
     a{
       color: white;
     }

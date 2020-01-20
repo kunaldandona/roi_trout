@@ -327,7 +327,6 @@ Version:  1.0.2
   float: none;
 }
 #footer-bottom #footer-info {
-  display: flex;
   color: #FCFFFC;
   border-top: 2px solid #FCFFFC;
   width: 100%;
@@ -338,6 +337,8 @@ Version:  1.0.2
   font-family: "mr-eaves-xl-modern", sans-serif;
   font-size: 14px;
   text-transform: uppercase;
+  float: none;
+  text-align: center;
 }
 #footer-bottom #footer-info a {
   color: white;
