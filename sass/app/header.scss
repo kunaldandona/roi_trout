@@ -373,6 +373,13 @@
 
 
 @media screen and  (max-width: $desktopSize) {
+
+  #top-menu-nav, #top-menu {display: none;}
+  #et_top_search {display: none;}
+  #et_mobile_nav_menu {display: block;}
+  #top-header .menu {
+    display: none;
+  }
   .trout-crumb .breadcrumb {
     display: flex;
     justify-content: flex-start;
