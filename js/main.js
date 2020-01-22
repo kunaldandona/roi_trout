@@ -88,11 +88,11 @@ jQuery(document).ready(function ($) {
             $('.et_mobile_menu .single-menu, .et_mobile_menu .mega-menu').wrapAll('<div class="primary-mob">','</div>');
             $('.et_mobile_menu .second').wrapAll('<div class="second-mob">','</div>');
             $( "#mobile_menu .menu-item-has-children a" ).unbind();
-            $( "#mobile_menu .menu-item-has-children a" ).click((e) => {
+            $('.primary-mob .menu-item-has-children > a').click((e) => {
                 e.preventDefault();
-
-                    $('#mobile_menu .menu-item-has-children > .sub-menu').toggleClass("active-sub-menu");
-
+                $(".primary-mob .sub-menu").prepend("<li class='back'><a>Go Back</a></li>");
+                var value = jQuery(e.target).next();
+                value.addClass("active-sub-menu");
             });
             clearInterval(checkExist);
         }
@@ -101,6 +101,10 @@ jQuery(document).ready(function ($) {
     $('.mobile_menu_bar').click(() => {
         $('.active-sub-menu').removeClass('active-sub-menu');
     });
+
+
+
+
 
 
 
