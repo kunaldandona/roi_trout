@@ -98,7 +98,7 @@ jQuery(document).ready(function ($) {
         }
     }, 500);
 
-    $('.mobile_menu_bar, .back-menu').click(() => {
+    $('.mobile_menu_bar, .back-menu a').click(() => {
         $('.active-sub-menu').removeClass('active-sub-menu');
     });
 });
