@@ -378,7 +378,7 @@
   #et_top_search {display: none;}
   #et_mobile_nav_menu {display: block;}
   #top-header .menu {
-    display: none;
+    display: none !important;
   }
   .trout-crumb .breadcrumb {
     display: flex;

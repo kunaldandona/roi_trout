@@ -313,7 +313,7 @@ Version:  1.0.2
   }
 
   #top-header .menu {
-    display: none;
+    display: none !important;
   }
 
   .trout-crumb .breadcrumb {
