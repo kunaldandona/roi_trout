@@ -88,6 +88,10 @@ jQuery(document).ready(function ($) {
             $('.et_mobile_menu .single-menu, .et_mobile_menu .mega-menu').wrapAll('<div class="primary-mob">','</div>');
             $('.et_mobile_menu .second').wrapAll('<div class="second-mob">','</div>');
             $( "#mobile_menu .menu-item-has-children > a" ).unbind();
+            $(".menu-item-has-children > a").each(function(i) {
+                var $content = $('.primary-mob .sub-menu').eq(i);
+                $(this).clone().prependTo($content);
+            });
             $(".primary-mob .sub-menu").prepend("<li class='back-menu'><a>Go Back</a></li>");
             $('.primary-mob .menu-item-has-children > a').click((e) => {
                 e.preventDefault();
@@ -101,7 +105,6 @@ jQuery(document).ready(function ($) {
 
             $('.back-menu a').click((e) => {
                 $(e.target).closest(".active-sub-menu").removeClass('active-sub-menu');
-
             });
 
             clearInterval(checkExist);
