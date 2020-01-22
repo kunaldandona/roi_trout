@@ -90,7 +90,7 @@ jQuery(document).ready(function ($) {
             $( "#mobile_menu .menu-item-has-children a" ).unbind();
             $('.primary-mob .menu-item-has-children > a').click((e) => {
                 e.preventDefault();
-                $(".primary-mob .sub-menu").prepend("<li class='back'><a>Go Back</a></li>");
+                $(".primary-mob .sub-menu").prepend("<li class='back-menu'><a>Go Back</a></li>");
                 var value = jQuery(e.target).next();
                 value.addClass("active-sub-menu");
             });
@@ -98,7 +98,7 @@ jQuery(document).ready(function ($) {
         }
     }, 500);
 
-    $('.mobile_menu_bar').click(() => {
+    $('.mobile_menu_bar, .back-menu').click(() => {
         $('.active-sub-menu').removeClass('active-sub-menu');
     });
 
