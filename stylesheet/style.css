@@ -637,6 +637,7 @@ body {
   #top-header #et-info {
     display: flex;
     justify-content: space-between;
+    width: 100%;
   }
   #top-header #et-info .et-social-icons {
     display: inline-block;
