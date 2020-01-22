@@ -30,7 +30,9 @@ body {
   }
 }
 
-
+.back-menu {
+  color: $secondBlack;
+}
 
 
 
@@ -127,7 +129,7 @@ body {
         }
       }
       .menu-item-has-children {
-        a {
+        & > a {
          &:after{
            content: "\61";
            font-family: ETmodules!important;

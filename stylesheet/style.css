@@ -558,6 +558,10 @@ body {
   transition: all 0.3s ease-in;
 }
 
+.back-menu {
+  color: #040F0F;
+}
+
 @media screen and (max-width: 1420px) {
   .nav-icon {
     width: 60px;
@@ -642,7 +646,7 @@ body {
     border-bottom: 1px solid #f7f7f7;
     padding: 15px;
   }
-  #main-header .et_mobile_menu .menu-item-has-children a:after {
+  #main-header .et_mobile_menu .menu-item-has-children > a:after {
     content: "a";
     font-family: ETmodules !important;
     font-weight: 400;
