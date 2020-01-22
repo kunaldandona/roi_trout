@@ -88,10 +88,10 @@ jQuery(document).ready(function ($) {
             $('.et_mobile_menu .single-menu, .et_mobile_menu .mega-menu').wrapAll('<div class="primary-mob">','</div>');
             $('.et_mobile_menu .second').wrapAll('<div class="second-mob">','</div>');
             $( "#mobile_menu .menu-item-has-children > a" ).unbind();
+            $(".primary-mob .sub-menu").prepend("<li class='back-menu'><a>Go Back</a></li>");
             $('.primary-mob .menu-item-has-children > a').click((e) => {
                 e.preventDefault();
-                $(".primary-mob .sub-menu").prepend("<li class='back-menu'><a>Go Back</a></li>");
-                var value = jQuery(e.target).next();
+                var value = $(e.target).next();
                 value.addClass("active-sub-menu");
             });
             clearInterval(checkExist);
@@ -101,12 +101,4 @@ jQuery(document).ready(function ($) {
     $('.mobile_menu_bar, .back-menu').click(() => {
         $('.active-sub-menu').removeClass('active-sub-menu');
     });
-
-
-
-
-
-
-
-
 });
