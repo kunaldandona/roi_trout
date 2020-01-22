@@ -132,12 +132,12 @@ body {
 
         .back-menu {
           a:before {
-            content: "\62";
+            content: "\64";
             font-family: ETmodules!important;
             font-weight: 400;
             font-style: normal;
             font-variant: normal;
-            margin-left: 10px;
+            margin-right: 10px;
             color: $headerWhite;
           }
         }

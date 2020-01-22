@@ -647,12 +647,12 @@ body {
     padding: 15px;
   }
   #main-header .et_mobile_menu .menu-item-has-children .back-menu a:before {
-    content: "b";
+    content: "d";
     font-family: ETmodules !important;
     font-weight: 400;
     font-style: normal;
     font-variant: normal;
-    margin-left: 10px;
+    margin-right: 10px;
     color: #FCFFFC;
   }
   #main-header .et_mobile_menu .menu-item-has-children > a:after {
