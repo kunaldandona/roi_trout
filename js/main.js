@@ -94,11 +94,10 @@ jQuery(document).ready(function ($) {
                 var value = $(e.target).next();
                 value.addClass("active-sub-menu");
             });
+            $('.mobile_menu_bar, .back-menu a').click(() => {
+                $('.active-sub-menu').removeClass('active-sub-menu');
+            });
             clearInterval(checkExist);
         }
     }, 500);
-
-    $('.mobile_menu_bar, .back-menu a').click(() => {
-        $('.active-sub-menu').removeClass('active-sub-menu');
-    });
 });
