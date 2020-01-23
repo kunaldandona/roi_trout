@@ -244,7 +244,7 @@
 }
 
 .validation_message {
-  color: #5f1d1d;
+  color: $forestGreen;
 }
 
 .gform_validation_container {
@@ -271,7 +271,7 @@
       color: $secondBlack;
     }
 
-    label {
+    label, .validation_error, .validation_message  {
       font-variant: none;
     }
   }

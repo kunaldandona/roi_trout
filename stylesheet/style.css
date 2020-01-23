@@ -538,7 +538,7 @@ Version:  1.0.2
 }
 
 .validation_message {
-  color: #5f1d1d;
+  color: #248232;
 }
 
 .gform_validation_container {
@@ -561,7 +561,7 @@ Version:  1.0.2
   font-size: 14px;
   color: #040F0F;
 }
-.gform_body ul label {
+.gform_body ul label, .gform_body ul .validation_error, .gform_body ul .validation_message {
   font-variant: none;
 }
 
