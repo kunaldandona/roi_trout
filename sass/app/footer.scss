@@ -243,8 +243,13 @@
   transition: all 0.4s ease-out;
 }
 
+. validation_message {
+  color: #5f1d1d;
+}
+
 .gform_validation_container {
   visibility: hidden;
+  height: 0;
 }
 
 .gform_body{
@@ -254,6 +259,7 @@
 
   ul {
     list-style-type: none;
+    padding: 0;
 
     li{
       margin-bottom: 10px;
