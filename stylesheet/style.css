@@ -517,6 +517,48 @@ Version:  1.0.2
   background-color: #040F0F;
 }
 
+#gform_submit_button_2 {
+  border: none;
+  display: block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  text-align: left;
+  font-size: 16px;
+  background-color: #040F0F;
+  padding: 10px 50px;
+  /* margin: 0 auto; */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.4s ease-out;
+}
+
+.gform_validation_container {
+  visibility: hidden;
+}
+
+.gform_body .ginput_container_name label {
+  display: none;
+}
+.gform_body ul {
+  list-style-type: none;
+}
+.gform_body ul li {
+  margin-bottom: 10px;
+}
+.gform_body ul input {
+  padding: 5px;
+  font-size: 14px;
+  color: #040F0F;
+}
+.gform_body ul label {
+  font-variant: none;
+}
+
 @media screen and (max-width: 1420px) {
   #footer-bottom {
     padding: 60px 0 0px 0;
