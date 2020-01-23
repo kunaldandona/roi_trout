@@ -39,7 +39,12 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 					<div class="container clearfix">
                         <div class="footer-wrap">
                             <div class="footer-col">
-                                <img class="footer-logo" src='<?= get_stylesheet_directory_uri() . '/assets/trout-creek-logo.png' ?>' alt="">
+                                <div class="footer-sec-logo">
+                                    <img class="footer-logo1" src='<?= get_stylesheet_directory_uri() . '/assets/bg-logo.png' ?>' alt="">
+                                    <img class="footer-logo1" src='<?= get_stylesheet_directory_uri() . '/assets/chba.png' ?>' alt="">
+                                    <img class="footer-logo1" src='<?= get_stylesheet_directory_uri() . '/assets/bc-wood.png' ?>' alt="">
+                                </div>
+
                                 <p><?= get_field('footer_description', 'option'); ?></p>
                                 <?php
                                 if ( false !== et_get_option( 'show_footer_social_icons', true ) ) {
