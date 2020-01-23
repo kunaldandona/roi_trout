@@ -41,7 +41,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             <div class="footer-col">
                                 <div class="footer-sec-logo">
                                     <img class="footer-logo1" src='<?= get_stylesheet_directory_uri() . '/assets/bg-logo.jpg' ?>' alt="">
-                                    <img class="footer-logo1" src='<?= get_stylesheet_directory_uri() . '/assets/chba.jpg' ?>' alt="">
+                                    <img class="footer-logo1" src='<?= get_stylesheet_directory_uri() . '/assets/chba-logo.jpg' ?>' alt="">
                                     <img class="footer-logo1" src='<?= get_stylesheet_directory_uri() . '/assets/bc-wood.jpg' ?>' alt="">
                                 </div>
 
