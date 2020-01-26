@@ -13,19 +13,16 @@ jQuery(document).ready(function ($) {
             console.log('condition 2');
         }
 
-        // if(headerPos <= 60 && $('.arrow').hasClass('upArrow')) {
-        //     $('#network_nav').css({ top: headTop  });
-        //     console.log('condition 3');
-        // } else if(headerPos > 60 && $('.arrow').hasClass('upArrow')) {
-        //      $('#network_nav').css({ top: headTop-21 });
-        //     $('#network_nav').css({ top: $('header').height() + $('#top-header').height() });
-        //     console.log('condition 4');
-        // }
+        if(headerPos <= 60 && $('.arrow').hasClass('upArrow')) {
+            $('#network_nav').css({ top: headTop  });
+        } else if(headerPos > 60 && $('.arrow').hasClass('upArrow')) {
 
-        if($('.arrow').hasClass('upArrow')) {
-            $('#network_nav').css({ top: $('header').height() + $('#top-header').height() });
+            if($('body').hasClass('home')){
+                $('#network_nav').css({ top: headTop-21 });
+            } else {
+                $('#network_nav').css({ top: $('header').height() + $('#top-header').height() });
+            }
         }
-
 
 
 
