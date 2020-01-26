@@ -6,7 +6,7 @@ jQuery(document).ready(function ($) {
         let headerPos = $('header').offset().top;
 
         if ($('.arrow').hasClass('upArrow')) {
-            $('#network_nav').css({ top: $('header').outerHeight() + $('#top-header').outerHeight() });
+            $('#network_nav').css({ top: $('header').outerHeight() + $('#top-header').outerHeight() - 1 });
             console.log('condition 1');
         } else {
             $('#network_nav').css({ top: '-60px' });
