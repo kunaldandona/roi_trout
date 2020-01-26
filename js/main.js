@@ -7,14 +7,12 @@ jQuery(document).ready(function ($) {
 
         if ($('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: $('header').outerHeight() + $('#top-header').outerHeight() - 1 });
-            console.log('condition 1');
         } else {
             $('#network_nav').css({ top: '-60px' });
-            console.log('condition 2');
         }
 
         if(headerPos <= 60 && $('.arrow').hasClass('upArrow')) {
-            $('#network_nav').css({ top: headTop  });
+            $('#network_nav').css({ top: headTop - 1  });
         } else if(headerPos > 60 && $('.arrow').hasClass('upArrow')) {
 
             if($('body').hasClass('home')){
