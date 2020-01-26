@@ -18,7 +18,7 @@ jQuery(document).ready(function ($) {
             console.log('condition 3');
         } else if(headerPos > 60 && $('.arrow').hasClass('upArrow')) {
             // $('#network_nav').css({ top: headTop-21 });
-            $('#network_nav').css({ top: headTop });
+            $('#network_nav').css({ top: $('header').height() + $('#top-header').height() });
             console.log('condition 4');
         }
 
