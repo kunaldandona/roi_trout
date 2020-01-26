@@ -6,13 +6,13 @@ jQuery(document).ready(function ($) {
         let headerPos = $('header').offset().top;
 
         if ($('.arrow').hasClass('upArrow')) {
-            $('#network_nav').css({ top: $('header').height() + $('#top-header').height() - 1});
+            $('#network_nav').css({ top: $('header').height() + $('#top-header').height() });
         } else {
             $('#network_nav').css({ top: '-60px' });
         }
 
         if(headerPos <= 60 && $('.arrow').hasClass('upArrow')) {
-            $('#network_nav').css({ top: headTop - 1 });
+            $('#network_nav').css({ top: headTop  });
         } else if(headerPos > 60 && $('.arrow').hasClass('upArrow')) {
             $('#network_nav').css({ top: headTop-21 });
         }
@@ -45,7 +45,7 @@ jQuery(document).ready(function ($) {
 
     var didScroll;
     var lastScrollTop = 0;
-    var delta = 5;
+    var delta = 3;
     var navbarHeight = $('header').outerHeight();
 
     $(window).scroll(function (event) {
