@@ -74,7 +74,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                                 <p><?= get_field('footer_address', 'option'); ?></p>
                             </div>
                             <div class="footer-col">
-                                <h2>Legal</h2>
+                                <h2>Services</h2>
                                 <?php wp_nav_menu( array( 'theme_location' => 'footer_menu' ) ); ?>
                             </div>
                             <div class="footer-col">
