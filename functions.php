@@ -23,6 +23,7 @@ function my_acf_op_init() {
 
 register_nav_menus( array(
     'footer_menu' => 'Footer Links',
+    'footer_term' => 'Footer Terms',
 ) );
 
 
