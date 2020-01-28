@@ -63,7 +63,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
 
                                         foreach ($troutnetwork as $site_id => $site_info) {
                                             $active = ($current == $site_id) ? " current_site" : '';
-                                            echo "<li class='footer-link {$active}'><a href='{$site_info['url']}' target='_Blank' id='footer-link-{$site_id}'>{$site_info['title']}</a></li>";
+//                                            echo "<li class='footer-link {$active}'><a href='{$site_info['url']}' target='_Blank' id='footer-link-{$site_id}'>{$site_info['title']}</a></li>";
                                         }
                                         ?>
                                         <?php wp_nav_menu( array( 'theme_location' => 'footer_term' ) ); ?>
