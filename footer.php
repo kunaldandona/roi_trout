@@ -66,6 +66,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                                             echo "<li class='footer-link {$active}'><a href='{$site_info['url']}' target='_Blank' id='footer-link-{$site_id}'>{$site_info['title']}</a></li>";
                                         }
                                         ?>
+                                        <?php wp_nav_menu( array( 'theme_location' => 'footer_term' ) ); ?>
                                     </ul>
                                 </div>
                             </div>
@@ -76,8 +77,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             <div class="footer-col">
                                 <h2>Services</h2>
                                 <?php wp_nav_menu( array( 'theme_location' => 'footer_menu' ) ); ?>
-                                <h2>Important</h2>
-                                <?php wp_nav_menu( array( 'theme_location' => 'footer_term' ) ); ?>
+
                             </div>
                             <div class="footer-col">
                                 <h2>Newsletter</h2>
