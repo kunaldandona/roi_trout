@@ -76,6 +76,8 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                             <div class="footer-col">
                                 <h2>Services</h2>
                                 <?php wp_nav_menu( array( 'theme_location' => 'footer_menu' ) ); ?>
+                                <h2>Important</h2>
+                                <?php wp_nav_menu( array( 'theme_location' => 'footer_term' ) ); ?>
                             </div>
                             <div class="footer-col">
                                 <h2>Newsletter</h2>
@@ -84,9 +86,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                         </div>
                         <div class="bottom-footer">
                             <p id="footer-info">crafted by&nbsp;<a class="roi-credit" href="https://roimediaworks.ca/">roi media works</a> 2020 © &nbsp;<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>. all rights reserved.</p>
-                            <div class="term-link">
-                                <?php wp_nav_menu( array( 'theme_location' => 'footer_term' ) ); ?>
-                            </div>
+
                         </div>
                        </div>	<!-- .container -->
 				</div>
