@@ -4,6 +4,9 @@
  *
  */
 global $troutnetwork, $current;
+$url1 = get_site_url(null, '/our-services/products/', 'https');
+$url2 = get_site_url(null, '/our-services/home-designs/', 'https');
+$url3 = get_site_url(null, '/projects/', 'https');
 
 
 add_action('acf/init', 'my_acf_op_init');
@@ -31,20 +34,20 @@ register_nav_menus( array(
 $troutnetwork = array(
     201 => array(
         'name' => 'builder',
-        'title' => 'Builders',
-        'url' => 'https://wordpress.roimediaworks.com/troutcreek/',
+        'title' => 'Products',
+        'url' => $url1,
         'networked' => true,
     ),
     202 => array(
         'name' => 'architects',
-        'title' => 'Architects',
-        'url' => 'https://wordpress.roimediaworks.com/troutcreek/',
+        'title' => 'Home Building System',
+        'url' => $url2,
         'networked' => true,
     ),
     203 => array(
         'name' => 'homeowner',
-        'title' => 'Home Owner',
-        'url' => 'https://wordpress.roimediaworks.com/troutcreek/',
+        'title' => 'Projects',
+        'url' => $url3,
         'networked' => true,
     )
 );
