@@ -61,7 +61,7 @@ Version:  1.0.2
   height: 4px;
   bottom: 40px;
   left: 0;
-  background-color: #FCFFFC;
+  background-color: #040F0F;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -392,9 +392,9 @@ Version:  1.0.2
   content: "";
   position: absolute;
   height: 5px;
-  bottom: 0;
+  bottom: -5px;
   background: rgba(4, 15, 15, 0.5);
-  width: 80%;
+  width: 95%;
 }
 #footer-bottom #footer-info .roi-credit:hover:before {
   background: linear-gradient(-45deg, #728b49, #1741a0, #23a6d5, #23d5ab);

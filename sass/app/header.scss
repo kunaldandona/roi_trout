@@ -1,3 +1,4 @@
+@import "./variables.scss";
 
 #main-header {
   background-color: $forestGreen;
@@ -72,7 +73,7 @@
             height: 4px;
             bottom: 40px;
             left: 0;
-            background-color: $headerWhite;
+            background-color: $headerBlack;
             visibility: hidden;
             transform: scaleX(0);
             transition: all 0.3s ease-in-out 0s;
