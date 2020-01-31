@@ -125,7 +125,6 @@ jQuery(document).ready(function ($) {
         var containerHeight = $("#our-story .et_pb_row > .et_pb_column").outerHeight();
         var WindowWidth = $(window).width();
         if(WindowWidth > 980){
-            console.log(WindowWidth);
             $(".our-story-image img").css("height", containerHeight - 120);
         } else {
             $(".our-story-image img").css("height", "auto");
