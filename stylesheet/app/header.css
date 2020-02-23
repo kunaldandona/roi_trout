@@ -10,7 +10,7 @@
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
-  color: #248232;
+  color: #142D06;
 }
 #main-header #top-menu-nav #top-menu li .sub-menu {
   width: 320px;
@@ -53,7 +53,7 @@
   height: 4px;
   bottom: 40px;
   left: 0;
-  background-color: #248232;
+  background-color: #142D06;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -94,7 +94,7 @@
   color: #040F0F;
 }
 #main-header .nav .mega-menu .sub-menu .sub-menu li a:hover, #main-header .et_mobile_menu li a:hover, #main-header .nav .single-menu .sub-menu li a:hover {
-  background-color: #248232;
+  background-color: #142D06;
   opacity: 1;
   color: #FCFFFC !important;
 }
@@ -155,7 +155,7 @@
 }
 
 #top-header, #et-secondary-nav li ul {
-  background-color: #248232;
+  background-color: #142D06;
 }
 
 #network_nav {
@@ -254,10 +254,10 @@
   line-height: 2.5;
 }
 #top-header #et-secondary-nav .current-menu-item {
-  background-color: #248232;
+  background-color: #142D06;
 }
 #top-header #et-secondary-nav .current-menu-item:hover {
-  background-color: #248232;
+  background-color: #142D06;
 }
 
 .trout-crumb {
@@ -282,7 +282,7 @@
   color: #FCFFFC;
 }
 .trout-crumb .breadcrumb .active span {
-  color: #248232;
+  color: #142D06;
 }
 .trout-crumb .breadcrumb li a {
   color: #FCFFFC;

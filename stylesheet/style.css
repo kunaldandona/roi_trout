@@ -18,7 +18,7 @@ Version:  1.0.2
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
-  color: #248232;
+  color: #142D06;
 }
 #main-header #top-menu-nav #top-menu li .sub-menu {
   width: 320px;
@@ -61,7 +61,7 @@ Version:  1.0.2
   height: 4px;
   bottom: 40px;
   left: 0;
-  background-color: #248232;
+  background-color: #142D06;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -102,7 +102,7 @@ Version:  1.0.2
   color: #040F0F;
 }
 #main-header .nav .mega-menu .sub-menu .sub-menu li a:hover, #main-header .et_mobile_menu li a:hover, #main-header .nav .single-menu .sub-menu li a:hover {
-  background-color: #248232;
+  background-color: #142D06;
   opacity: 1;
   color: #FCFFFC !important;
 }
@@ -163,7 +163,7 @@ Version:  1.0.2
 }
 
 #top-header, #et-secondary-nav li ul {
-  background-color: #248232;
+  background-color: #142D06;
 }
 
 #network_nav {
@@ -262,10 +262,10 @@ Version:  1.0.2
   line-height: 2.5;
 }
 #top-header #et-secondary-nav .current-menu-item {
-  background-color: #248232;
+  background-color: #142D06;
 }
 #top-header #et-secondary-nav .current-menu-item:hover {
-  background-color: #248232;
+  background-color: #142D06;
 }
 
 .trout-crumb {
@@ -290,7 +290,7 @@ Version:  1.0.2
   color: #FCFFFC;
 }
 .trout-crumb .breadcrumb .active span {
-  color: #248232;
+  color: #142D06;
 }
 .trout-crumb .breadcrumb li a {
   color: #FCFFFC;
@@ -345,7 +345,7 @@ Version:  1.0.2
   }
 }
 #footer-bottom {
-  background-color: #248232;
+  background-color: #142D06;
   color: #FCFFFC;
   font-size: 14px;
   position: relative;
@@ -482,7 +482,7 @@ Version:  1.0.2
   width: 100%;
   padding: 5px;
   font-size: 14px;
-  color: #248232;
+  color: #142D06;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .validation_message {
   position: absolute;
@@ -537,11 +537,11 @@ Version:  1.0.2
 }
 
 .et_pb_section #gform_submit_button_2 {
-  background-color: #248232;
+  background-color: #142D06;
 }
 
 .validation_message {
-  color: #248232;
+  color: #142D06;
 }
 
 .gform_validation_container {
@@ -698,7 +698,7 @@ body {
     position: unset;
   }
   #main-header .et_mobile_menu {
-    background: #248232;
+    background: #142D06;
     padding: 0%;
     border-top: 3px solid #f7f7f7;
     height: calc(100vh - 95px);
@@ -745,7 +745,7 @@ body {
 #et_mobile_nav_menu #mobile_menu .sub-menu {
   position: absolute;
   width: 100%;
-  background: #248232;
+  background: #142D06;
   transform: translateX(100%);
   top: 0;
   height: 100vh;
