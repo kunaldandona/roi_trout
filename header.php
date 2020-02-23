@@ -263,7 +263,7 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
             <?php
             $logo = ( $user_logo = et_get_option( 'divi_logo' ) ) && ! empty( $user_logo )
                 ? $user_logo
-                : $template_directory_uri . '/assets/trout-creek-logo.png';
+                : $template_directory_uri . '/assets/trout-creek-logo-olive.png';
 
             ob_start();
             ?>
