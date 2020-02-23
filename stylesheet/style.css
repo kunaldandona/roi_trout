@@ -194,13 +194,13 @@ Version:  1.0.2
   transition: all 0.4s ease-in-out;
 }
 #network_nav .trout_container .trout-links a:nth-child(1) {
-  background-color: #248232;
+  background-color: #728b49;
 }
 #network_nav .trout_container .trout-links a:nth-child(2) {
-  background-color: #5f1d1d;
+  background-color: #728b49;
 }
 #network_nav .trout_container .trout-links a:nth-child(3) {
-  background-color: #1d395f;
+  background-color: #728b49;
 }
 #network_nav .trout_container .trout-links a:hover {
   background-color: #040F0F;
