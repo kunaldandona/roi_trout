@@ -10,7 +10,7 @@
   }
 }
 #footer-bottom {
-  background-color: #142D06;
+  background-color: #728b49;
   color: #FCFFFC;
   font-size: 14px;
   position: relative;
@@ -147,7 +147,7 @@
   width: 100%;
   padding: 5px;
   font-size: 14px;
-  color: #142D06;
+  color: #728b49;
 }
 #footer-bottom .footer-wrap .footer-col .footer-sub_wrapper .gform_body ul li .validation_message {
   position: absolute;
@@ -202,11 +202,11 @@
 }
 
 .et_pb_section #gform_submit_button_2 {
-  background-color: #142D06;
+  background-color: #728b49;
 }
 
 .validation_message {
-  color: #142D06;
+  color: #728b49;
 }
 
 .gform_validation_container {
