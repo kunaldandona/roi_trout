@@ -1,6 +1,7 @@
 #main-header {
   background-color: #FCFFFC;
   color: #040F0F;
+  border-bottom: 3px solid #142D06;
 }
 #main-header #top-menu-nav #top-menu li.mega-menu > ul > li > a:first-child {
   border-bottom: none;
