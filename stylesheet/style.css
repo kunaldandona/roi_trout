@@ -18,7 +18,7 @@ Version:  1.0.2
   font-weight: 600;
   font-style: normal;
   text-transform: uppercase;
-  color: #FCFFFC;
+  color: #248232;
 }
 #main-header #top-menu-nav #top-menu li .sub-menu {
   width: 320px;
@@ -163,7 +163,7 @@ Version:  1.0.2
 }
 
 #top-header, #et-secondary-nav li ul {
-  background-color: #040F0F;
+  background-color: #248232;
 }
 
 #network_nav {
