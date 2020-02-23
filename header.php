@@ -243,7 +243,7 @@ $page_container_style = $product_tour_enabled ? ' style="padding-top: 0px;"' : '
                 <?
                 foreach ($troutnetwork as $site_id => $site_info) {
                     $active = ($current == $site_id) ? " current_site" : '';
-                    $logoImg = $template_directory_uri . '/assets/trout-creek-logo-olive.png';
+                    $logoImg = $template_directory_uri . '/assets/trout-creek-logo.png';
                     echo "
                     <a href='{$site_info['url']}' id='site-btn-{$site_id}'>
                         <div class='trout-site{$active}'>
