@@ -6,7 +6,6 @@
 global $troutnetwork, $current;
 $url1 = get_site_url(null, '/our-services/products/', 'https');
 $url2 = get_site_url(null, '/our-services/home-designs/', 'https');
-$url3 = get_site_url(null, '/projects/', 'https');
 
 
 add_action('acf/init', 'my_acf_op_init');
@@ -42,12 +41,6 @@ $troutnetwork = array(
         'name' => 'architects',
         'title' => 'Home Building System',
         'url' => $url2,
-        'networked' => true,
-    ),
-    203 => array(
-        'name' => 'homeowner',
-        'title' => 'Projects',
-        'url' => $url3,
         'networked' => true,
     )
 );
