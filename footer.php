@@ -85,6 +85,7 @@ if ( ! is_page_template( 'page-template-blank.php' ) ) : ?>
                                 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
                                 <style type="text/css">
                                 #mc_embed_signup{background:#142d06; clear:left; font:14px Helvetica,Arial,sans-serif;  width:300px;}
+                                #mc_embed_signup form {padding: 0;}
                                 /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
                                 We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
                                 </style>
